@@ -1,0 +1,13 @@
+{
+  "fields": {
+    "project":
+    {
+      "key": "SP"
+    },
+    "summary": "First Task API.",
+    "description": "Creating my first Task through API.",
+    "issuetype": {
+      "name": "Task"
+    }
+  }
+}

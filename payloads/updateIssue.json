@@ -1,0 +1,12 @@
+{
+  "fields": {
+    "project": {
+      "key": "SP"
+    },
+    "summary": "Creating my first issue through API.",
+    "description": "Updating my first issue.",
+    "issuetype": {
+      "name": "Bug"
+    }
+  }
+}

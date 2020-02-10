@@ -1,0 +1,1614 @@
+2020-02-09 16:24:02 INFO  Base:26 - Starting Test Case : doLogin
+2020-02-09 16:24:02 INFO  Base:49 - Inside PayloadConverter function
+2020-02-09 16:24:02 INFO  URL:16 - URI End Point : http://localhost:8081/rest/auth/1/session
+2020-02-09 16:24:02 INFO  Base:75 - Inside POSTRequest call
+2020-02-09 16:24:03 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://localhost:8081
+2020-02-09 16:24:03 DEBUG DefaultClientConnectionOperator:176 - Connecting to localhost:8081
+2020-02-09 16:24:03 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2020-02-09 16:24:03 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2020-02-09 16:24:03 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2020-02-09 16:24:03 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2020-02-09 16:24:03 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2020-02-09 16:24:03 DEBUG DefaultClientConnection:276 - Sending request: POST /rest/auth/1/session HTTP/1.1
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "POST /rest/auth/1/session HTTP/1.1[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "Content-Length: 63[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "Host: localhost:8081[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "[\r][\n]"
+2020-02-09 16:24:03 DEBUG headers:280 - >> POST /rest/auth/1/session HTTP/1.1
+2020-02-09 16:24:03 DEBUG headers:283 - >> Accept: */*
+2020-02-09 16:24:03 DEBUG headers:283 - >> Content-Type: application/json; charset=UTF-8
+2020-02-09 16:24:03 DEBUG headers:283 - >> Content-Length: 63
+2020-02-09 16:24:03 DEBUG headers:283 - >> Host: localhost:8081
+2020-02-09 16:24:03 DEBUG headers:283 - >> Connection: Keep-Alive
+2020-02-09 16:24:03 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)
+2020-02-09 16:24:03 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "{[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "  "username":"samanrab",[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "  "password":"SamanHussain25"[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "}[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "HTTP/1.1 200 [\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "X-AREQUESTID: 984x1123x1[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "Content-Security-Policy: frame-ancestors 'self'[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "X-ASEN: SEN-L14935662[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "Set-Cookie: atlassian.xsrf.token=BWNL-UN77-8NK5-9ND4_4a7686a13c501d2d6e9b5d1a42a59ed9e6f63299_lout; Path=/[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "X-AUSERNAME: anonymous[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "Set-Cookie: JSESSIONID=D90275F54F42AB046D66DC1970DA4B50; Path=/; HttpOnly[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "X-Seraph-LoginReason: OK[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "Cache-Control: no-cache, no-store, no-transform[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "Vary: User-Agent[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "Date: Sun, 09 Feb 2020 23:24:03 GMT[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:03 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 
+2020-02-09 16:24:03 DEBUG headers:264 - << HTTP/1.1 200 
+2020-02-09 16:24:03 DEBUG headers:267 - << X-AREQUESTID: 984x1123x1
+2020-02-09 16:24:03 DEBUG headers:267 - << X-XSS-Protection: 1; mode=block
+2020-02-09 16:24:03 DEBUG headers:267 - << X-Content-Type-Options: nosniff
+2020-02-09 16:24:03 DEBUG headers:267 - << X-Frame-Options: SAMEORIGIN
+2020-02-09 16:24:03 DEBUG headers:267 - << Content-Security-Policy: frame-ancestors 'self'
+2020-02-09 16:24:03 DEBUG headers:267 - << X-ASEN: SEN-L14935662
+2020-02-09 16:24:03 DEBUG headers:267 - << Set-Cookie: atlassian.xsrf.token=BWNL-UN77-8NK5-9ND4_4a7686a13c501d2d6e9b5d1a42a59ed9e6f63299_lout; Path=/
+2020-02-09 16:24:03 DEBUG headers:267 - << X-AUSERNAME: anonymous
+2020-02-09 16:24:03 DEBUG headers:267 - << Set-Cookie: JSESSIONID=D90275F54F42AB046D66DC1970DA4B50; Path=/; HttpOnly
+2020-02-09 16:24:03 DEBUG headers:267 - << X-Seraph-LoginReason: OK
+2020-02-09 16:24:03 DEBUG headers:267 - << Cache-Control: no-cache, no-store, no-transform
+2020-02-09 16:24:03 DEBUG headers:267 - << Content-Encoding: gzip
+2020-02-09 16:24:03 DEBUG headers:267 - << Vary: User-Agent
+2020-02-09 16:24:03 DEBUG headers:267 - << Content-Type: application/json;charset=UTF-8
+2020-02-09 16:24:03 DEBUG headers:267 - << Transfer-Encoding: chunked
+2020-02-09 16:24:03 DEBUG headers:267 - << Date: Sun, 09 Feb 2020 23:24:03 GMT
+2020-02-09 16:24:03 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2020-02-09 16:24:03 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json;charset=UTF-8
+2020-02-09 16:24:03 DEBUG wire:72 -  << "b3[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:86 -  << "[0x1f]"
+2020-02-09 16:24:03 DEBUG wire:86 -  << "[0x8b]"
+2020-02-09 16:24:03 DEBUG wire:86 -  << "[0x8]"
+2020-02-09 16:24:03 DEBUG wire:86 -  << "[0x0]"
+2020-02-09 16:24:03 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x0]"
+2020-02-09 16:24:03 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-02-09 16:24:03 DEBUG Base:79 - io.restassured.internal.RequestSpecificationImpl@52851b44
+2020-02-09 16:24:03 DEBUG wire:72 -  << "t[0x8e]A[0xe][0x82]0[0x14]D[0xef][0xf2][0xd7]@~Kimw@%[0xc1][0x18]][0xc0][0x5]H[0x4][0xd3][0x4][c[0x81][\r][0xe1][0xee][0x82][0x92][0xb8]r9/o&3[0x83]o[0xbd]7[0xce][0x82][0x9a][0xc1]6[0x8f][0x16][0x14][0x9c][0xaa]cU[0x95][0xd7]K[0xa9]![0x80][0xa9][0xe9][0xc7][\r]j[0x89]T$E[0xc2][\n]"
+2020-02-09 16:24:03 DEBUG wire:86 -  << "F[0xd3][0xc][0x19][0xd7][0x9c][0xeb][0x9c]H[0x81]:eY[0x82][0xb0][0x4][0xd0][0xbb][0xbb][0xb1][0xa5][0xed][0xdc]6[0xd6]5[0xa6]oo[0xe7][\r][0xe5]n[0xb4][0x3]([0xb2][0x1b]{[0xe4]|[0xcd][0x8d][0x1f][0x8a][0x9f]X[0x9b][0xcf][0x1][0x8a][0x14]C[0xa4]![0xca][0x9a]PE[0xa4]B[0x16][0x89]X[0x84]([0x10][0xd7]K[0xcf]W;[0x19]7[0xfa][0x15][0xae](U[0x8c]E19|+[0xcb][0xf2][0x6][0x0][0x0][0xff][0xff]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "a[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:86 -  << "[0x3][0x0][0xd8][0xbb][0xb4]:[0xe7][0x0][0x0][0x0]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "0[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:03 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5a9d6f02
+2020-02-09 16:24:03 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2020-02-09 16:24:03 INFO  Base:33 - Login Response Body: {"session":{"name":"JSESSIONID","value":"D90275F54F42AB046D66DC1970DA4B50"},"loginInfo":{"failedLoginCount":1,"loginCount":66,"lastFailedLoginTime":"2020-02-09T12:19:04.737-0700","previousLoginTime":"2020-02-09T16:22:44.318-0700"}}
+2020-02-09 16:24:03 INFO  TestUtils:14 - Converting Response to String
+2020-02-09 16:24:03 DEBUG TestUtils:16 - String Response{"session":{"name":"JSESSIONID","value":"D90275F54F42AB046D66DC1970DA4B50"},"loginInfo":{"failedLoginCount":1,"loginCount":66,"lastFailedLoginTime":"2020-02-09T12:19:04.737-0700","previousLoginTime":"2020-02-09T16:22:44.318-0700"}}
+2020-02-09 16:24:03 INFO  TestUtils:21 - Parsing String Response to JSON
+2020-02-09 16:24:03 DEBUG TestUtils:23 - JSON Response: io.restassured.path.json.JsonPath@3016fd5e
+2020-02-09 16:24:03 INFO  Base:38 - JIRA JSession ID : D90275F54F42AB046D66DC1970DA4B50
+2020-02-09 16:24:03 INFO  Base:49 - Inside PayloadConverter function
+2020-02-09 16:24:03 INFO  URL:16 - URI End Point : http://localhost:8081/rest/api/2/issue/
+2020-02-09 16:24:03 INFO  Base:84 - Inside POSTRequest call
+2020-02-09 16:24:03 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://localhost:8081
+2020-02-09 16:24:03 DEBUG DefaultClientConnectionOperator:176 - Connecting to localhost:8081
+2020-02-09 16:24:03 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2020-02-09 16:24:03 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2020-02-09 16:24:03 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2020-02-09 16:24:03 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2020-02-09 16:24:03 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2020-02-09 16:24:03 DEBUG DefaultClientConnection:276 - Sending request: POST /rest/api/2/issue/ HTTP/1.1
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "POST /rest/api/2/issue/ HTTP/1.1[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "cookie: JSESSIONID=D90275F54F42AB046D66DC1970DA4B50[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "Content-Length: 226[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "Host: localhost:8081[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "[\r][\n]"
+2020-02-09 16:24:03 DEBUG headers:280 - >> POST /rest/api/2/issue/ HTTP/1.1
+2020-02-09 16:24:03 DEBUG headers:283 - >> cookie: JSESSIONID=D90275F54F42AB046D66DC1970DA4B50
+2020-02-09 16:24:03 DEBUG headers:283 - >> Accept: */*
+2020-02-09 16:24:03 DEBUG headers:283 - >> Content-Type: application/json; charset=UTF-8
+2020-02-09 16:24:03 DEBUG headers:283 - >> Content-Length: 226
+2020-02-09 16:24:03 DEBUG headers:283 - >> Host: localhost:8081
+2020-02-09 16:24:03 DEBUG headers:283 - >> Connection: Keep-Alive
+2020-02-09 16:24:03 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)
+2020-02-09 16:24:03 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "{[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "  "fields": {[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "    "project":[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "    {[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "      "key": "SP"[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "    },[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "    "summary": "Creating my first issue through API.",[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "    "description": "Creating my first issue.",[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "    "issuetype": {[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "      "name": "Bug"[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "    }[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "  }[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:86 -  >> "}"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "HTTP/1.1 201 [\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "X-AREQUESTID: 984x1124x1[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "X-ASESSIONID: 16ykhu0[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "Content-Security-Policy: frame-ancestors 'self'[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "X-ASEN: SEN-L14935662[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "X-Seraph-LoginReason: OK[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "Set-Cookie: atlassian.xsrf.token=BWNL-UN77-8NK5-9ND4_db1a537667863d64efc7dd170c131a1f19bb483c_lin; Path=/[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "X-AUSERNAME: samanrab[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "Cache-Control: no-cache, no-store, no-transform[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "Vary: User-Agent[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "Date: Sun, 09 Feb 2020 23:24:03 GMT[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:03 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 201 
+2020-02-09 16:24:03 DEBUG headers:264 - << HTTP/1.1 201 
+2020-02-09 16:24:03 DEBUG headers:267 - << X-AREQUESTID: 984x1124x1
+2020-02-09 16:24:03 DEBUG headers:267 - << X-ASESSIONID: 16ykhu0
+2020-02-09 16:24:03 DEBUG headers:267 - << X-XSS-Protection: 1; mode=block
+2020-02-09 16:24:03 DEBUG headers:267 - << X-Content-Type-Options: nosniff
+2020-02-09 16:24:03 DEBUG headers:267 - << X-Frame-Options: SAMEORIGIN
+2020-02-09 16:24:03 DEBUG headers:267 - << Content-Security-Policy: frame-ancestors 'self'
+2020-02-09 16:24:03 DEBUG headers:267 - << X-ASEN: SEN-L14935662
+2020-02-09 16:24:03 DEBUG headers:267 - << X-Seraph-LoginReason: OK
+2020-02-09 16:24:03 DEBUG headers:267 - << Set-Cookie: atlassian.xsrf.token=BWNL-UN77-8NK5-9ND4_db1a537667863d64efc7dd170c131a1f19bb483c_lin; Path=/
+2020-02-09 16:24:03 DEBUG headers:267 - << X-AUSERNAME: samanrab
+2020-02-09 16:24:03 DEBUG headers:267 - << Cache-Control: no-cache, no-store, no-transform
+2020-02-09 16:24:03 DEBUG headers:267 - << Content-Encoding: gzip
+2020-02-09 16:24:03 DEBUG headers:267 - << Vary: User-Agent
+2020-02-09 16:24:03 DEBUG headers:267 - << Content-Type: application/json;charset=UTF-8
+2020-02-09 16:24:03 DEBUG headers:267 - << Transfer-Encoding: chunked
+2020-02-09 16:24:03 DEBUG headers:267 - << Date: Sun, 09 Feb 2020 23:24:03 GMT
+2020-02-09 16:24:03 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2020-02-09 16:24:03 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json;charset=UTF-8
+2020-02-09 16:24:03 DEBUG wire:72 -  << "5a[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:86 -  << "[0x1f]"
+2020-02-09 16:24:03 DEBUG wire:86 -  << "[0x8b]"
+2020-02-09 16:24:03 DEBUG wire:86 -  << "[0x8]"
+2020-02-09 16:24:03 DEBUG wire:86 -  << "[0x0]"
+2020-02-09 16:24:03 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x0]"
+2020-02-09 16:24:03 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-02-09 16:24:03 DEBUG Base:89 - Post Request Specificationsio.restassured.internal.RequestSpecificationImpl@4bf3798b
+2020-02-09 16:24:03 INFO  TestUtils:36 - Getting Response Code
+2020-02-09 16:24:03 INFO  TestUtils:38 - Status Code: 201
+2020-02-09 16:24:03 INFO  Base:26 - Starting Test Case : doLogin
+2020-02-09 16:24:03 INFO  Base:49 - Inside PayloadConverter function
+2020-02-09 16:24:03 INFO  URL:16 - URI End Point : http://localhost:8081/rest/auth/1/session
+2020-02-09 16:24:03 INFO  Base:75 - Inside POSTRequest call
+2020-02-09 16:24:03 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://localhost:8081
+2020-02-09 16:24:03 DEBUG DefaultClientConnectionOperator:176 - Connecting to localhost:8081
+2020-02-09 16:24:03 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2020-02-09 16:24:03 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2020-02-09 16:24:03 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2020-02-09 16:24:03 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2020-02-09 16:24:03 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2020-02-09 16:24:03 DEBUG DefaultClientConnection:276 - Sending request: POST /rest/auth/1/session HTTP/1.1
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "POST /rest/auth/1/session HTTP/1.1[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "Content-Length: 63[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "Host: localhost:8081[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "[\r][\n]"
+2020-02-09 16:24:03 DEBUG headers:280 - >> POST /rest/auth/1/session HTTP/1.1
+2020-02-09 16:24:03 DEBUG headers:283 - >> Accept: */*
+2020-02-09 16:24:03 DEBUG headers:283 - >> Content-Type: application/json; charset=UTF-8
+2020-02-09 16:24:03 DEBUG headers:283 - >> Content-Length: 63
+2020-02-09 16:24:03 DEBUG headers:283 - >> Host: localhost:8081
+2020-02-09 16:24:03 DEBUG headers:283 - >> Connection: Keep-Alive
+2020-02-09 16:24:03 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)
+2020-02-09 16:24:03 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "{[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "  "username":"samanrab",[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "  "password":"SamanHussain25"[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  >> "}[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "HTTP/1.1 200 [\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "X-AREQUESTID: 984x1125x1[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "Content-Security-Policy: frame-ancestors 'self'[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "X-ASEN: SEN-L14935662[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "Set-Cookie: atlassian.xsrf.token=BWNL-UN77-8NK5-9ND4_edc5bdad224d52d0277be75678d79085689bc68e_lout; Path=/[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "X-AUSERNAME: anonymous[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "Set-Cookie: JSESSIONID=A0BD00C9070E1B6A88A9D9471D2F573E; Path=/; HttpOnly[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "X-Seraph-LoginReason: OK[\r][\n]"
+2020-02-09 16:24:03 DEBUG wire:72 -  << "Cache-Control: no-cache, no-store, no-transform[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Vary: User-Agent[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Date: Sun, 09 Feb 2020 23:24:03 GMT[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 
+2020-02-09 16:24:04 DEBUG headers:264 - << HTTP/1.1 200 
+2020-02-09 16:24:04 DEBUG headers:267 - << X-AREQUESTID: 984x1125x1
+2020-02-09 16:24:04 DEBUG headers:267 - << X-XSS-Protection: 1; mode=block
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Content-Type-Options: nosniff
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Frame-Options: SAMEORIGIN
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Security-Policy: frame-ancestors 'self'
+2020-02-09 16:24:04 DEBUG headers:267 - << X-ASEN: SEN-L14935662
+2020-02-09 16:24:04 DEBUG headers:267 - << Set-Cookie: atlassian.xsrf.token=BWNL-UN77-8NK5-9ND4_edc5bdad224d52d0277be75678d79085689bc68e_lout; Path=/
+2020-02-09 16:24:04 DEBUG headers:267 - << X-AUSERNAME: anonymous
+2020-02-09 16:24:04 DEBUG headers:267 - << Set-Cookie: JSESSIONID=A0BD00C9070E1B6A88A9D9471D2F573E; Path=/; HttpOnly
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Seraph-LoginReason: OK
+2020-02-09 16:24:04 DEBUG headers:267 - << Cache-Control: no-cache, no-store, no-transform
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Encoding: gzip
+2020-02-09 16:24:04 DEBUG headers:267 - << Vary: User-Agent
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Type: application/json;charset=UTF-8
+2020-02-09 16:24:04 DEBUG headers:267 - << Transfer-Encoding: chunked
+2020-02-09 16:24:04 DEBUG headers:267 - << Date: Sun, 09 Feb 2020 23:24:03 GMT
+2020-02-09 16:24:04 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2020-02-09 16:24:04 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json;charset=UTF-8
+2020-02-09 16:24:04 DEBUG wire:72 -  << "b4[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x1f]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x8b]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x8]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x0]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x0]"
+2020-02-09 16:24:04 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-02-09 16:24:04 DEBUG Base:79 - io.restassured.internal.RequestSpecificationImpl@18245eb0
+2020-02-09 16:24:04 DEBUG wire:72 -  << "t[0x8e][0xcb][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[0x83]0[0x14]D[0xff][0xe5][0xae]Un[0xe2]#&;[0x9f]`)[0xed]B [0xd0]X[0x2]6)[0x8d][0xba][0x11][0xff][0xbd][0xda][\n]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "]u9[0xc3][0x9c][0x99]Y[0xc0])[0xe7][0xb4]5 [0x16]0[0xf2][0xa1]@[0xc0][0xa9][0xad][0xda][0xb6][0xb9]^[0x9a][0x12]<[0x98][0xe5]0[0xed]f[0x86]y[0x89]XpdX[0x91]<[0xc9][0xd2]4[0xe3]%[0x8f][0x18])i[0x1d][0xb3][0xb0][0x82][0xd5][0x83][0xc1][0xde][0xb5]iLo[0xf7][0xb2]^[0xea]A[0xdd][0xce][0xbb]U[0xd8][0xc9][0x8c] [0xc8][0x91]8d[0xc2]6-[0xdd]X[0xff][0x82][0x9d][0xfe][0x1c][0xa0]H[0xd1]G[0xea]#[0xef][0x8][0x15][0x84][0xb][0x8c][0x2][0x16]2[0xdb][0xc6][0xed][0xd2][0xf3][0xa5]fm'[0xf7][0xf]I[0x4][0x8d][0x4][0x86]A[0x18][0xe3][0x17]Y[0xd7]7[0x0][0x0][0x0][0xff][0xff]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "a[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x3][0x0][0xe6]A[0xd7][0xc1][0xe7][0x0][0x0][0x0]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "0[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7c7d3c46
+2020-02-09 16:24:04 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2020-02-09 16:24:04 INFO  Base:33 - Login Response Body: {"session":{"name":"JSESSIONID","value":"A0BD00C9070E1B6A88A9D9471D2F573E"},"loginInfo":{"failedLoginCount":1,"loginCount":67,"lastFailedLoginTime":"2020-02-09T12:19:04.737-0700","previousLoginTime":"2020-02-09T16:24:03.350-0700"}}
+2020-02-09 16:24:04 INFO  TestUtils:14 - Converting Response to String
+2020-02-09 16:24:04 DEBUG TestUtils:16 - String Response{"session":{"name":"JSESSIONID","value":"A0BD00C9070E1B6A88A9D9471D2F573E"},"loginInfo":{"failedLoginCount":1,"loginCount":67,"lastFailedLoginTime":"2020-02-09T12:19:04.737-0700","previousLoginTime":"2020-02-09T16:24:03.350-0700"}}
+2020-02-09 16:24:04 INFO  TestUtils:21 - Parsing String Response to JSON
+2020-02-09 16:24:04 DEBUG TestUtils:23 - JSON Response: io.restassured.path.json.JsonPath@24fb6a80
+2020-02-09 16:24:04 INFO  Base:38 - JIRA JSession ID : A0BD00C9070E1B6A88A9D9471D2F573E
+2020-02-09 16:24:04 INFO  URL:16 - URI End Point : http://localhost:8081/rest/api/2/issue/SP-1
+2020-02-09 16:24:04 INFO  Base:64 - Inside GETRequest call
+2020-02-09 16:24:04 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://localhost:8081
+2020-02-09 16:24:04 DEBUG DefaultClientConnectionOperator:176 - Connecting to localhost:8081
+2020-02-09 16:24:04 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2020-02-09 16:24:04 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2020-02-09 16:24:04 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2020-02-09 16:24:04 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2020-02-09 16:24:04 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2020-02-09 16:24:04 DEBUG DefaultClientConnection:276 - Sending request: GET /rest/api/2/issue/SP-1 HTTP/1.1
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "GET /rest/api/2/issue/SP-1 HTTP/1.1[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "cookie: JSESSIONID=A0BD00C9070E1B6A88A9D9471D2F573E[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Host: localhost:8081[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "[\r][\n]"
+2020-02-09 16:24:04 DEBUG headers:280 - >> GET /rest/api/2/issue/SP-1 HTTP/1.1
+2020-02-09 16:24:04 DEBUG headers:283 - >> Content-Type: application/json; charset=UTF-8
+2020-02-09 16:24:04 DEBUG headers:283 - >> cookie: JSESSIONID=A0BD00C9070E1B6A88A9D9471D2F573E
+2020-02-09 16:24:04 DEBUG headers:283 - >> Accept: */*
+2020-02-09 16:24:04 DEBUG headers:283 - >> Content-Length: 0
+2020-02-09 16:24:04 DEBUG headers:283 - >> Host: localhost:8081
+2020-02-09 16:24:04 DEBUG headers:283 - >> Connection: Keep-Alive
+2020-02-09 16:24:04 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)
+2020-02-09 16:24:04 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2020-02-09 16:24:04 DEBUG wire:72 -  << "HTTP/1.1 200 [\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-AREQUESTID: 984x1126x1[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-ASESSIONID: 1hwyej8[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Security-Policy: frame-ancestors 'self'[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-ASEN: SEN-L14935662[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Seraph-LoginReason: OK[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Set-Cookie: atlassian.xsrf.token=BWNL-UN77-8NK5-9ND4_61ac26194c0decafd9300883a000525c1f51724e_lin; Path=/[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-AUSERNAME: samanrab[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Cache-Control: no-cache, no-store, no-transform[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Vary: User-Agent[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Date: Sun, 09 Feb 2020 23:24:03 GMT[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 
+2020-02-09 16:24:04 DEBUG headers:264 - << HTTP/1.1 200 
+2020-02-09 16:24:04 DEBUG headers:267 - << X-AREQUESTID: 984x1126x1
+2020-02-09 16:24:04 DEBUG headers:267 - << X-ASESSIONID: 1hwyej8
+2020-02-09 16:24:04 DEBUG headers:267 - << X-XSS-Protection: 1; mode=block
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Content-Type-Options: nosniff
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Frame-Options: SAMEORIGIN
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Security-Policy: frame-ancestors 'self'
+2020-02-09 16:24:04 DEBUG headers:267 - << X-ASEN: SEN-L14935662
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Seraph-LoginReason: OK
+2020-02-09 16:24:04 DEBUG headers:267 - << Set-Cookie: atlassian.xsrf.token=BWNL-UN77-8NK5-9ND4_61ac26194c0decafd9300883a000525c1f51724e_lin; Path=/
+2020-02-09 16:24:04 DEBUG headers:267 - << X-AUSERNAME: samanrab
+2020-02-09 16:24:04 DEBUG headers:267 - << Cache-Control: no-cache, no-store, no-transform
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Encoding: gzip
+2020-02-09 16:24:04 DEBUG headers:267 - << Vary: User-Agent
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Type: application/json;charset=UTF-8
+2020-02-09 16:24:04 DEBUG headers:267 - << Transfer-Encoding: chunked
+2020-02-09 16:24:04 DEBUG headers:267 - << Date: Sun, 09 Feb 2020 23:24:03 GMT
+2020-02-09 16:24:04 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2020-02-09 16:24:04 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json;charset=UTF-8
+2020-02-09 16:24:04 DEBUG wire:72 -  << "6bc[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x1f]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x8b]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x8]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x0]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x0]"
+2020-02-09 16:24:04 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-02-09 16:24:04 DEBUG Base:69 - io.restassured.internal.RequestSpecificationImpl@3faf2e7d
+2020-02-09 16:24:04 INFO  TestUtils:36 - Getting Response Code
+2020-02-09 16:24:04 INFO  TestUtils:38 - Status Code: 200
+2020-02-09 16:24:04 INFO  Base:26 - Starting Test Case : doLogin
+2020-02-09 16:24:04 INFO  Base:49 - Inside PayloadConverter function
+2020-02-09 16:24:04 INFO  URL:16 - URI End Point : http://localhost:8081/rest/auth/1/session
+2020-02-09 16:24:04 INFO  Base:75 - Inside POSTRequest call
+2020-02-09 16:24:04 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://localhost:8081
+2020-02-09 16:24:04 DEBUG DefaultClientConnectionOperator:176 - Connecting to localhost:8081
+2020-02-09 16:24:04 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2020-02-09 16:24:04 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2020-02-09 16:24:04 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2020-02-09 16:24:04 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2020-02-09 16:24:04 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2020-02-09 16:24:04 DEBUG DefaultClientConnection:276 - Sending request: POST /rest/auth/1/session HTTP/1.1
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "POST /rest/auth/1/session HTTP/1.1[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Content-Length: 63[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Host: localhost:8081[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "[\r][\n]"
+2020-02-09 16:24:04 DEBUG headers:280 - >> POST /rest/auth/1/session HTTP/1.1
+2020-02-09 16:24:04 DEBUG headers:283 - >> Accept: */*
+2020-02-09 16:24:04 DEBUG headers:283 - >> Content-Type: application/json; charset=UTF-8
+2020-02-09 16:24:04 DEBUG headers:283 - >> Content-Length: 63
+2020-02-09 16:24:04 DEBUG headers:283 - >> Host: localhost:8081
+2020-02-09 16:24:04 DEBUG headers:283 - >> Connection: Keep-Alive
+2020-02-09 16:24:04 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)
+2020-02-09 16:24:04 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "{[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "  "username":"samanrab",[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "  "password":"SamanHussain25"[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "}[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "HTTP/1.1 200 [\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-AREQUESTID: 984x1127x1[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Security-Policy: frame-ancestors 'self'[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-ASEN: SEN-L14935662[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Set-Cookie: atlassian.xsrf.token=BWNL-UN77-8NK5-9ND4_86d0be03ca7101f694f856ecb87e29b1c12d2da9_lout; Path=/[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-AUSERNAME: anonymous[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Set-Cookie: JSESSIONID=E2D2165D97FA6E33EE8CEA867F66D1F9; Path=/; HttpOnly[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Seraph-LoginReason: OK[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Cache-Control: no-cache, no-store, no-transform[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Vary: User-Agent[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Date: Sun, 09 Feb 2020 23:24:03 GMT[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 
+2020-02-09 16:24:04 DEBUG headers:264 - << HTTP/1.1 200 
+2020-02-09 16:24:04 DEBUG headers:267 - << X-AREQUESTID: 984x1127x1
+2020-02-09 16:24:04 DEBUG headers:267 - << X-XSS-Protection: 1; mode=block
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Content-Type-Options: nosniff
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Frame-Options: SAMEORIGIN
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Security-Policy: frame-ancestors 'self'
+2020-02-09 16:24:04 DEBUG headers:267 - << X-ASEN: SEN-L14935662
+2020-02-09 16:24:04 DEBUG headers:267 - << Set-Cookie: atlassian.xsrf.token=BWNL-UN77-8NK5-9ND4_86d0be03ca7101f694f856ecb87e29b1c12d2da9_lout; Path=/
+2020-02-09 16:24:04 DEBUG headers:267 - << X-AUSERNAME: anonymous
+2020-02-09 16:24:04 DEBUG headers:267 - << Set-Cookie: JSESSIONID=E2D2165D97FA6E33EE8CEA867F66D1F9; Path=/; HttpOnly
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Seraph-LoginReason: OK
+2020-02-09 16:24:04 DEBUG headers:267 - << Cache-Control: no-cache, no-store, no-transform
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Encoding: gzip
+2020-02-09 16:24:04 DEBUG headers:267 - << Vary: User-Agent
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Type: application/json;charset=UTF-8
+2020-02-09 16:24:04 DEBUG headers:267 - << Transfer-Encoding: chunked
+2020-02-09 16:24:04 DEBUG headers:267 - << Date: Sun, 09 Feb 2020 23:24:03 GMT
+2020-02-09 16:24:04 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2020-02-09 16:24:04 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json;charset=UTF-8
+2020-02-09 16:24:04 DEBUG wire:72 -  << "b3[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x1f]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x8b]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x8]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x0]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x0]"
+2020-02-09 16:24:04 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-02-09 16:24:04 DEBUG Base:79 - io.restassured.internal.RequestSpecificationImpl@68759011
+2020-02-09 16:24:04 DEBUG wire:72 -  << "t[0x8e]A[\n]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x83]0[0x14]D[0xef][0xf2][0xd7]*?[0xd1]&&;[0xd1][0x4],[0xa5]][0xe8][0x5][0x2][0xb5]%`[0x93][0xd2][0xa8][0x1b][0xf1][0xee][0xd5]V[0xe8][0xaa][0xcb]y[0xbc][0x19]f[0x86][0xd0][0x85]`[0xbd][0x3]9[0x83]3[0x8f][0xe]$[0x1c][0x1b][0xd5]4[0xf5][0xe5]\W[0x10][0xc1]d[0xfa]q[0x83][0x8a]V[0x94][0xb0]C%[0xb8].[0x98]JS[0xa5][0xf2]R[0x15]9[0xe3][0x9a][0xb1][0x8a]h[0x1]K[0x4][0xbd][0xbf][W[0xbb][0x9b][0xdf][0xc6]n[0xc6][0xf6][0xdd][0xf5][0xb4][0xa1][0xd2][0x8f]n[0x0]Ivc[0x8f],_[0xb3][0x9][0x83][0xfe][0x89][0xad][0xfd][0x1c][0xa0]H1F[0x1a][0xa3]h[0x9][0x95]DH[0xcc][0x12][0x9e][0xf2][0x18]9[0xe2]z[0xe9][0xf9][0xea]&[0xeb][0xc7][0xf0][0xaf][0xc2]$[0xcd]$[0xa6][0x89][0x10][0xf8][0xad],[0xcb][0x1b][0x0][0x0][0xff][0xff]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "a[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x3][0x0][0xef][0x85][0x18][0x5][0xe7][0x0][0x0][0x0]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "0[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7e242b4d
+2020-02-09 16:24:04 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2020-02-09 16:24:04 INFO  Base:33 - Login Response Body: {"session":{"name":"JSESSIONID","value":"E2D2165D97FA6E33EE8CEA867F66D1F9"},"loginInfo":{"failedLoginCount":1,"loginCount":68,"lastFailedLoginTime":"2020-02-09T12:19:04.737-0700","previousLoginTime":"2020-02-09T16:24:03.990-0700"}}
+2020-02-09 16:24:04 INFO  TestUtils:14 - Converting Response to String
+2020-02-09 16:24:04 DEBUG TestUtils:16 - String Response{"session":{"name":"JSESSIONID","value":"E2D2165D97FA6E33EE8CEA867F66D1F9"},"loginInfo":{"failedLoginCount":1,"loginCount":68,"lastFailedLoginTime":"2020-02-09T12:19:04.737-0700","previousLoginTime":"2020-02-09T16:24:03.990-0700"}}
+2020-02-09 16:24:04 INFO  TestUtils:21 - Parsing String Response to JSON
+2020-02-09 16:24:04 DEBUG TestUtils:23 - JSON Response: io.restassured.path.json.JsonPath@305f031
+2020-02-09 16:24:04 INFO  Base:38 - JIRA JSession ID : E2D2165D97FA6E33EE8CEA867F66D1F9
+2020-02-09 16:24:04 INFO  Base:49 - Inside PayloadConverter function
+2020-02-09 16:24:04 INFO  URL:16 - URI End Point : http://localhost:8081/rest/api/2/issue/
+2020-02-09 16:24:04 INFO  Base:84 - Inside POSTRequest call
+2020-02-09 16:24:04 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://localhost:8081
+2020-02-09 16:24:04 DEBUG DefaultClientConnectionOperator:176 - Connecting to localhost:8081
+2020-02-09 16:24:04 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2020-02-09 16:24:04 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2020-02-09 16:24:04 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2020-02-09 16:24:04 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2020-02-09 16:24:04 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2020-02-09 16:24:04 DEBUG DefaultClientConnection:276 - Sending request: POST /rest/api/2/issue/ HTTP/1.1
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "POST /rest/api/2/issue/ HTTP/1.1[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "cookie: JSESSIONID=E2D2165D97FA6E33EE8CEA867F66D1F9[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Content-Length: 228[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Host: localhost:8081[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "[\r][\n]"
+2020-02-09 16:24:04 DEBUG headers:280 - >> POST /rest/api/2/issue/ HTTP/1.1
+2020-02-09 16:24:04 DEBUG headers:283 - >> cookie: JSESSIONID=E2D2165D97FA6E33EE8CEA867F66D1F9
+2020-02-09 16:24:04 DEBUG headers:283 - >> Accept: */*
+2020-02-09 16:24:04 DEBUG headers:283 - >> Content-Type: application/json; charset=UTF-8
+2020-02-09 16:24:04 DEBUG headers:283 - >> Content-Length: 228
+2020-02-09 16:24:04 DEBUG headers:283 - >> Host: localhost:8081
+2020-02-09 16:24:04 DEBUG headers:283 - >> Connection: Keep-Alive
+2020-02-09 16:24:04 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)
+2020-02-09 16:24:04 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "{[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "  "fields": {[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "    "project":[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "    {[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "      "key": "SP"[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "    },[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "    "summary": "Creating my first story through API.",[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "    "description": "Creating my first story.",[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "    "issuetype": {[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "      "name": "Story"[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "    }[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "  }[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:86 -  >> "}"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "HTTP/1.1 201 [\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-AREQUESTID: 984x1128x1[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-ASESSIONID: sjocet[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Security-Policy: frame-ancestors 'self'[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-ASEN: SEN-L14935662[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Seraph-LoginReason: OK[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Set-Cookie: atlassian.xsrf.token=BWNL-UN77-8NK5-9ND4_5ba11e7fdc7632748e388eb983379d5e7a50f028_lin; Path=/[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-AUSERNAME: samanrab[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Cache-Control: no-cache, no-store, no-transform[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Vary: User-Agent[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Date: Sun, 09 Feb 2020 23:24:03 GMT[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 201 
+2020-02-09 16:24:04 DEBUG headers:264 - << HTTP/1.1 201 
+2020-02-09 16:24:04 DEBUG headers:267 - << X-AREQUESTID: 984x1128x1
+2020-02-09 16:24:04 DEBUG headers:267 - << X-ASESSIONID: sjocet
+2020-02-09 16:24:04 DEBUG headers:267 - << X-XSS-Protection: 1; mode=block
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Content-Type-Options: nosniff
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Frame-Options: SAMEORIGIN
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Security-Policy: frame-ancestors 'self'
+2020-02-09 16:24:04 DEBUG headers:267 - << X-ASEN: SEN-L14935662
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Seraph-LoginReason: OK
+2020-02-09 16:24:04 DEBUG headers:267 - << Set-Cookie: atlassian.xsrf.token=BWNL-UN77-8NK5-9ND4_5ba11e7fdc7632748e388eb983379d5e7a50f028_lin; Path=/
+2020-02-09 16:24:04 DEBUG headers:267 - << X-AUSERNAME: samanrab
+2020-02-09 16:24:04 DEBUG headers:267 - << Cache-Control: no-cache, no-store, no-transform
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Encoding: gzip
+2020-02-09 16:24:04 DEBUG headers:267 - << Vary: User-Agent
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Type: application/json;charset=UTF-8
+2020-02-09 16:24:04 DEBUG headers:267 - << Transfer-Encoding: chunked
+2020-02-09 16:24:04 DEBUG headers:267 - << Date: Sun, 09 Feb 2020 23:24:03 GMT
+2020-02-09 16:24:04 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2020-02-09 16:24:04 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json;charset=UTF-8
+2020-02-09 16:24:04 DEBUG wire:72 -  << "5a[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x1f]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x8b]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x8]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x0]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x0]"
+2020-02-09 16:24:04 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-02-09 16:24:04 DEBUG Base:89 - Post Request Specificationsio.restassured.internal.RequestSpecificationImpl@fd0e5b6
+2020-02-09 16:24:04 INFO  TestUtils:36 - Getting Response Code
+2020-02-09 16:24:04 INFO  TestUtils:38 - Status Code: 201
+2020-02-09 16:24:04 INFO  Base:26 - Starting Test Case : doLogin
+2020-02-09 16:24:04 INFO  Base:49 - Inside PayloadConverter function
+2020-02-09 16:24:04 INFO  URL:16 - URI End Point : http://localhost:8081/rest/auth/1/session
+2020-02-09 16:24:04 INFO  Base:75 - Inside POSTRequest call
+2020-02-09 16:24:04 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://localhost:8081
+2020-02-09 16:24:04 DEBUG DefaultClientConnectionOperator:176 - Connecting to localhost:8081
+2020-02-09 16:24:04 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2020-02-09 16:24:04 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2020-02-09 16:24:04 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2020-02-09 16:24:04 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2020-02-09 16:24:04 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2020-02-09 16:24:04 DEBUG DefaultClientConnection:276 - Sending request: POST /rest/auth/1/session HTTP/1.1
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "POST /rest/auth/1/session HTTP/1.1[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Content-Length: 63[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Host: localhost:8081[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "[\r][\n]"
+2020-02-09 16:24:04 DEBUG headers:280 - >> POST /rest/auth/1/session HTTP/1.1
+2020-02-09 16:24:04 DEBUG headers:283 - >> Accept: */*
+2020-02-09 16:24:04 DEBUG headers:283 - >> Content-Type: application/json; charset=UTF-8
+2020-02-09 16:24:04 DEBUG headers:283 - >> Content-Length: 63
+2020-02-09 16:24:04 DEBUG headers:283 - >> Host: localhost:8081
+2020-02-09 16:24:04 DEBUG headers:283 - >> Connection: Keep-Alive
+2020-02-09 16:24:04 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)
+2020-02-09 16:24:04 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "{[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "  "username":"samanrab",[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "  "password":"SamanHussain25"[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "}[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "HTTP/1.1 200 [\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-AREQUESTID: 984x1129x1[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Security-Policy: frame-ancestors 'self'[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-ASEN: SEN-L14935662[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Set-Cookie: atlassian.xsrf.token=BWNL-UN77-8NK5-9ND4_f15c85fcea6bc6882bbd2f428705dd80b354c34d_lout; Path=/[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-AUSERNAME: anonymous[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Set-Cookie: JSESSIONID=6A2057C664F2EDF4EFC34A1C22AB653E; Path=/; HttpOnly[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Seraph-LoginReason: OK[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Cache-Control: no-cache, no-store, no-transform[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Vary: User-Agent[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Date: Sun, 09 Feb 2020 23:24:03 GMT[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 
+2020-02-09 16:24:04 DEBUG headers:264 - << HTTP/1.1 200 
+2020-02-09 16:24:04 DEBUG headers:267 - << X-AREQUESTID: 984x1129x1
+2020-02-09 16:24:04 DEBUG headers:267 - << X-XSS-Protection: 1; mode=block
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Content-Type-Options: nosniff
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Frame-Options: SAMEORIGIN
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Security-Policy: frame-ancestors 'self'
+2020-02-09 16:24:04 DEBUG headers:267 - << X-ASEN: SEN-L14935662
+2020-02-09 16:24:04 DEBUG headers:267 - << Set-Cookie: atlassian.xsrf.token=BWNL-UN77-8NK5-9ND4_f15c85fcea6bc6882bbd2f428705dd80b354c34d_lout; Path=/
+2020-02-09 16:24:04 DEBUG headers:267 - << X-AUSERNAME: anonymous
+2020-02-09 16:24:04 DEBUG headers:267 - << Set-Cookie: JSESSIONID=6A2057C664F2EDF4EFC34A1C22AB653E; Path=/; HttpOnly
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Seraph-LoginReason: OK
+2020-02-09 16:24:04 DEBUG headers:267 - << Cache-Control: no-cache, no-store, no-transform
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Encoding: gzip
+2020-02-09 16:24:04 DEBUG headers:267 - << Vary: User-Agent
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Type: application/json;charset=UTF-8
+2020-02-09 16:24:04 DEBUG headers:267 - << Transfer-Encoding: chunked
+2020-02-09 16:24:04 DEBUG headers:267 - << Date: Sun, 09 Feb 2020 23:24:03 GMT
+2020-02-09 16:24:04 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2020-02-09 16:24:04 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json;charset=UTF-8
+2020-02-09 16:24:04 DEBUG wire:72 -  << "b3[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x1f]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x8b]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x8]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x0]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x0]"
+2020-02-09 16:24:04 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-02-09 16:24:04 DEBUG Base:79 - io.restassured.internal.RequestSpecificationImpl@5241cf67
+2020-02-09 16:24:04 DEBUG wire:72 -  << "t[0x8e][0xcb][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[0x83]0[0x14]D[0xff][0xe5][0xae][0xb5][0xdc]\c[0x82][0xd9]Y[0x1f]`)[0xed]B P-[0x1][0x9b][0x94]F[0xdd][0x88][0xff]^m[0x85][0xae][0xba]<[0xc3][0x9c]af[0xf0][0xad][0xf7][0xc6]YP3X[0xfd]hA[0xc1][0xa9].[0xea][0xba][0xba]^[0xaa][0x1c][0x2][0x98]t?n[0xa1]H[0x9]c[0x99][0x9][0xc1]K*[0xf2][0x92][0x17]e[0x16][0xf1][0x94]eD[0xe9]Q[0xc4]Q[0x1]K[0x0][0xbd][0xbb][0x1b][[0xd9][0xce]mc[0x9d]6}{;oQ[0xe6]F;[0x80]b{cG[0x91][0xac][0xac][0xfd]P[0xfe][0x8a][0x8d][0xf9][0x1c] $[0xc][0x91]BL[0x1a]F[0x8a]%[\n]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0xf9]AF2D[0x89][0xb8]^z[0xbe][0xda][0xc9][0xb8][0xd1][0xff]S[0x84]"[0xbe]),b_eY[0xde][0x0][0x0][0x0][0xff][0xff]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "a[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x3][0x0]F[0xbf][0xd5][0xe][0xe7][0x0][0x0][0x0]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "0[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@716a7124
+2020-02-09 16:24:04 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2020-02-09 16:24:04 INFO  Base:33 - Login Response Body: {"session":{"name":"JSESSIONID","value":"6A2057C664F2EDF4EFC34A1C22AB653E"},"loginInfo":{"failedLoginCount":1,"loginCount":69,"lastFailedLoginTime":"2020-02-09T12:19:04.737-0700","previousLoginTime":"2020-02-09T16:24:04.131-0700"}}
+2020-02-09 16:24:04 INFO  TestUtils:14 - Converting Response to String
+2020-02-09 16:24:04 DEBUG TestUtils:16 - String Response{"session":{"name":"JSESSIONID","value":"6A2057C664F2EDF4EFC34A1C22AB653E"},"loginInfo":{"failedLoginCount":1,"loginCount":69,"lastFailedLoginTime":"2020-02-09T12:19:04.737-0700","previousLoginTime":"2020-02-09T16:24:04.131-0700"}}
+2020-02-09 16:24:04 INFO  TestUtils:21 - Parsing String Response to JSON
+2020-02-09 16:24:04 DEBUG TestUtils:23 - JSON Response: io.restassured.path.json.JsonPath@77192705
+2020-02-09 16:24:04 INFO  Base:38 - JIRA JSession ID : 6A2057C664F2EDF4EFC34A1C22AB653E
+2020-02-09 16:24:04 INFO  URL:16 - URI End Point : http://localhost:8081/rest/api/2/issue/SP-1
+2020-02-09 16:24:04 INFO  Base:49 - Inside PayloadConverter function
+2020-02-09 16:24:04 INFO  Base:95 - Inside PUTRequest call
+2020-02-09 16:24:04 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://localhost:8081
+2020-02-09 16:24:04 DEBUG DefaultClientConnectionOperator:176 - Connecting to localhost:8081
+2020-02-09 16:24:04 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2020-02-09 16:24:04 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2020-02-09 16:24:04 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2020-02-09 16:24:04 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2020-02-09 16:24:04 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2020-02-09 16:24:04 DEBUG DefaultClientConnection:276 - Sending request: PUT /rest/api/2/issue/SP-1 HTTP/1.1
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "PUT /rest/api/2/issue/SP-1 HTTP/1.1[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "cookie: JSESSIONID=6A2057C664F2EDF4EFC34A1C22AB653E[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Content-Length: 221[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Host: localhost:8081[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "[\r][\n]"
+2020-02-09 16:24:04 DEBUG headers:280 - >> PUT /rest/api/2/issue/SP-1 HTTP/1.1
+2020-02-09 16:24:04 DEBUG headers:283 - >> cookie: JSESSIONID=6A2057C664F2EDF4EFC34A1C22AB653E
+2020-02-09 16:24:04 DEBUG headers:283 - >> Accept: */*
+2020-02-09 16:24:04 DEBUG headers:283 - >> Content-Type: application/json; charset=UTF-8
+2020-02-09 16:24:04 DEBUG headers:283 - >> Content-Length: 221
+2020-02-09 16:24:04 DEBUG headers:283 - >> Host: localhost:8081
+2020-02-09 16:24:04 DEBUG headers:283 - >> Connection: Keep-Alive
+2020-02-09 16:24:04 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)
+2020-02-09 16:24:04 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "{[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "  "fields": {[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "    "project": {[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "      "key": "SP"[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "    },[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "    "summary": "Creating my first issue through API.",[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "    "description": "Updating my first issue.",[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "    "issuetype": {[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "      "name": "Bug"[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "    }[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "  }[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:86 -  >> "}"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "HTTP/1.1 204 [\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-AREQUESTID: 984x1130x1[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-ASESSIONID: 142jojh[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Security-Policy: frame-ancestors 'self'[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-ASEN: SEN-L14935662[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Seraph-LoginReason: OK[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Set-Cookie: atlassian.xsrf.token=BWNL-UN77-8NK5-9ND4_c5e67bb264122c3b972523359de2395177a21b7f_lin; Path=/[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-AUSERNAME: samanrab[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Cache-Control: no-cache, no-store, no-transform[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Date: Sun, 09 Feb 2020 23:24:04 GMT[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 204 
+2020-02-09 16:24:04 DEBUG headers:264 - << HTTP/1.1 204 
+2020-02-09 16:24:04 DEBUG headers:267 - << X-AREQUESTID: 984x1130x1
+2020-02-09 16:24:04 DEBUG headers:267 - << X-ASESSIONID: 142jojh
+2020-02-09 16:24:04 DEBUG headers:267 - << X-XSS-Protection: 1; mode=block
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Content-Type-Options: nosniff
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Frame-Options: SAMEORIGIN
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Security-Policy: frame-ancestors 'self'
+2020-02-09 16:24:04 DEBUG headers:267 - << X-ASEN: SEN-L14935662
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Seraph-LoginReason: OK
+2020-02-09 16:24:04 DEBUG headers:267 - << Set-Cookie: atlassian.xsrf.token=BWNL-UN77-8NK5-9ND4_c5e67bb264122c3b972523359de2395177a21b7f_lin; Path=/
+2020-02-09 16:24:04 DEBUG headers:267 - << X-AUSERNAME: samanrab
+2020-02-09 16:24:04 DEBUG headers:267 - << Cache-Control: no-cache, no-store, no-transform
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Type: application/json;charset=UTF-8
+2020-02-09 16:24:04 DEBUG headers:267 - << Date: Sun, 09 Feb 2020 23:24:04 GMT
+2020-02-09 16:24:04 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2020-02-09 16:24:04 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@76c7beb3
+2020-02-09 16:24:04 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2020-02-09 16:24:04 DEBUG Base:100 - PUT Request Specifications: io.restassured.internal.RequestSpecificationImpl@5f2f577
+2020-02-09 16:24:04 INFO  TestUtils:36 - Getting Response Code
+2020-02-09 16:24:04 INFO  TestUtils:38 - Status Code: 204
+2020-02-09 16:24:04 INFO  Base:26 - Starting Test Case : doLogin
+2020-02-09 16:24:04 INFO  Base:49 - Inside PayloadConverter function
+2020-02-09 16:24:04 INFO  URL:16 - URI End Point : http://localhost:8081/rest/auth/1/session
+2020-02-09 16:24:04 INFO  Base:75 - Inside POSTRequest call
+2020-02-09 16:24:04 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://localhost:8081
+2020-02-09 16:24:04 DEBUG DefaultClientConnectionOperator:176 - Connecting to localhost:8081
+2020-02-09 16:24:04 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2020-02-09 16:24:04 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2020-02-09 16:24:04 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2020-02-09 16:24:04 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2020-02-09 16:24:04 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2020-02-09 16:24:04 DEBUG DefaultClientConnection:276 - Sending request: POST /rest/auth/1/session HTTP/1.1
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "POST /rest/auth/1/session HTTP/1.1[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Content-Length: 63[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Host: localhost:8081[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "[\r][\n]"
+2020-02-09 16:24:04 DEBUG headers:280 - >> POST /rest/auth/1/session HTTP/1.1
+2020-02-09 16:24:04 DEBUG headers:283 - >> Accept: */*
+2020-02-09 16:24:04 DEBUG headers:283 - >> Content-Type: application/json; charset=UTF-8
+2020-02-09 16:24:04 DEBUG headers:283 - >> Content-Length: 63
+2020-02-09 16:24:04 DEBUG headers:283 - >> Host: localhost:8081
+2020-02-09 16:24:04 DEBUG headers:283 - >> Connection: Keep-Alive
+2020-02-09 16:24:04 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)
+2020-02-09 16:24:04 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "{[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "  "username":"samanrab",[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "  "password":"SamanHussain25"[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "}[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "HTTP/1.1 200 [\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-AREQUESTID: 984x1131x1[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Security-Policy: frame-ancestors 'self'[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-ASEN: SEN-L14935662[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Set-Cookie: atlassian.xsrf.token=BWNL-UN77-8NK5-9ND4_334495528dfb149f90df62c44ef2af9dfd59a590_lout; Path=/[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-AUSERNAME: anonymous[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Set-Cookie: JSESSIONID=744BC3AB9CAD4D7EB31E71A5760171B4; Path=/; HttpOnly[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Seraph-LoginReason: OK[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Cache-Control: no-cache, no-store, no-transform[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Vary: User-Agent[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Date: Sun, 09 Feb 2020 23:24:04 GMT[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 
+2020-02-09 16:24:04 DEBUG headers:264 - << HTTP/1.1 200 
+2020-02-09 16:24:04 DEBUG headers:267 - << X-AREQUESTID: 984x1131x1
+2020-02-09 16:24:04 DEBUG headers:267 - << X-XSS-Protection: 1; mode=block
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Content-Type-Options: nosniff
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Frame-Options: SAMEORIGIN
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Security-Policy: frame-ancestors 'self'
+2020-02-09 16:24:04 DEBUG headers:267 - << X-ASEN: SEN-L14935662
+2020-02-09 16:24:04 DEBUG headers:267 - << Set-Cookie: atlassian.xsrf.token=BWNL-UN77-8NK5-9ND4_334495528dfb149f90df62c44ef2af9dfd59a590_lout; Path=/
+2020-02-09 16:24:04 DEBUG headers:267 - << X-AUSERNAME: anonymous
+2020-02-09 16:24:04 DEBUG headers:267 - << Set-Cookie: JSESSIONID=744BC3AB9CAD4D7EB31E71A5760171B4; Path=/; HttpOnly
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Seraph-LoginReason: OK
+2020-02-09 16:24:04 DEBUG headers:267 - << Cache-Control: no-cache, no-store, no-transform
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Encoding: gzip
+2020-02-09 16:24:04 DEBUG headers:267 - << Vary: User-Agent
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Type: application/json;charset=UTF-8
+2020-02-09 16:24:04 DEBUG headers:267 - << Transfer-Encoding: chunked
+2020-02-09 16:24:04 DEBUG headers:267 - << Date: Sun, 09 Feb 2020 23:24:04 GMT
+2020-02-09 16:24:04 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2020-02-09 16:24:04 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json;charset=UTF-8
+2020-02-09 16:24:04 DEBUG wire:72 -  << "b2[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x1f]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x8b]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x8]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x0]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x0]"
+2020-02-09 16:24:04 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-02-09 16:24:04 DEBUG Base:79 - io.restassured.internal.RequestSpecificationImpl@117e0fe5
+2020-02-09 16:24:04 DEBUG wire:72 -  << "t[0x8e]A[\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[0x83]0[0x14]D[0xef][0xf2][0xd7]Z~b[0xf4]cvF-XJ[0xbb][0xd0][0xb][0x4][0xaa]%`[0x93][0xd2][0xa8][0x1b][0xf1][0xee][0xd5]V[0xe8][0xaa][0xcb]7[0xcc][0x1b]f[0x6][0xdf]zo[0x9c][0x5]9[0x83][0xd5][0x8f][0x16]$[0x9c][0xea][0xb2][0xae][0xab][0xeb][0xa5]* [0x80]I[0xf7][0xe3][0x16][0x92][0x10]*[0x8f]2[0x95][0xe6]Y![\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "*U[0xc4]JbYL[0x9]2bJ[0xc0][0x12]@[0xef][0xee][0xc6]V[0xb6]s[0xdb]X[0xa7]M[0xdf][0xde][0xce][[0x94][0xbb][0xd1][0xe] [0xd9][0xde][0xd8][0x91]pe[0xed][0x87][0xe3][0xaf][0xd8][0x98][0xcf][0x1][0x8e][0x1c]C[0xe4]![0xa6][\r][0xe3][0x92][0xa5][0x12][0xc5][0x81]"[\n]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x91][0x10][0xd7]K[0xcf]W;[0x19]7[0xfa]J"[0xb9][0xd8][0x94][0x8][0xe3][0xaf][0xb2],o[0x0][0x0][0x0][0xff][0xff]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "a[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x3][0x0]R,u[0xbc][0xe7][0x0][0x0][0x0]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "0[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@18a3962d
+2020-02-09 16:24:04 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2020-02-09 16:24:04 INFO  Base:33 - Login Response Body: {"session":{"name":"JSESSIONID","value":"744BC3AB9CAD4D7EB31E71A5760171B4"},"loginInfo":{"failedLoginCount":1,"loginCount":70,"lastFailedLoginTime":"2020-02-09T12:19:04.737-0700","previousLoginTime":"2020-02-09T16:24:04.305-0700"}}
+2020-02-09 16:24:04 INFO  TestUtils:14 - Converting Response to String
+2020-02-09 16:24:04 DEBUG TestUtils:16 - String Response{"session":{"name":"JSESSIONID","value":"744BC3AB9CAD4D7EB31E71A5760171B4"},"loginInfo":{"failedLoginCount":1,"loginCount":70,"lastFailedLoginTime":"2020-02-09T12:19:04.737-0700","previousLoginTime":"2020-02-09T16:24:04.305-0700"}}
+2020-02-09 16:24:04 INFO  TestUtils:21 - Parsing String Response to JSON
+2020-02-09 16:24:04 DEBUG TestUtils:23 - JSON Response: io.restassured.path.json.JsonPath@78aea4b9
+2020-02-09 16:24:04 INFO  Base:38 - JIRA JSession ID : 744BC3AB9CAD4D7EB31E71A5760171B4
+2020-02-09 16:24:04 INFO  URL:16 - URI End Point : http://localhost:8081/rest/api/2/issue/
+2020-02-09 16:24:04 INFO  Base:49 - Inside PayloadConverter function
+2020-02-09 16:24:04 INFO  Base:84 - Inside POSTRequest call
+2020-02-09 16:24:04 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://localhost:8081
+2020-02-09 16:24:04 DEBUG DefaultClientConnectionOperator:176 - Connecting to localhost:8081
+2020-02-09 16:24:04 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2020-02-09 16:24:04 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2020-02-09 16:24:04 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2020-02-09 16:24:04 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2020-02-09 16:24:04 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2020-02-09 16:24:04 DEBUG DefaultClientConnection:276 - Sending request: POST /rest/api/2/issue/ HTTP/1.1
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "POST /rest/api/2/issue/ HTTP/1.1[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "cookie: JSESSIONID=744BC3AB9CAD4D7EB31E71A5760171B4[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Content-Length: 217[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Host: localhost:8081[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "[\r][\n]"
+2020-02-09 16:24:04 DEBUG headers:280 - >> POST /rest/api/2/issue/ HTTP/1.1
+2020-02-09 16:24:04 DEBUG headers:283 - >> cookie: JSESSIONID=744BC3AB9CAD4D7EB31E71A5760171B4
+2020-02-09 16:24:04 DEBUG headers:283 - >> Accept: */*
+2020-02-09 16:24:04 DEBUG headers:283 - >> Content-Type: application/json; charset=UTF-8
+2020-02-09 16:24:04 DEBUG headers:283 - >> Content-Length: 217
+2020-02-09 16:24:04 DEBUG headers:283 - >> Host: localhost:8081
+2020-02-09 16:24:04 DEBUG headers:283 - >> Connection: Keep-Alive
+2020-02-09 16:24:04 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)
+2020-02-09 16:24:04 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "{[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "  "fields": {[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "    "project":[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "    {[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "      "key": "SP"[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "    },[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "    "summary": "First Task API.",[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "    "description": "Creating my first Task through API.",[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "    "issuetype": {[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "      "name": "Task"[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "    }[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "  }[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:86 -  >> "}"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "HTTP/1.1 201 [\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-AREQUESTID: 984x1132x1[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-ASESSIONID: 6lbyyp[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Security-Policy: frame-ancestors 'self'[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-ASEN: SEN-L14935662[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Seraph-LoginReason: OK[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Set-Cookie: atlassian.xsrf.token=BWNL-UN77-8NK5-9ND4_e973213f68da68612986e8dd810f4514f4d7c2ec_lin; Path=/[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-AUSERNAME: samanrab[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Cache-Control: no-cache, no-store, no-transform[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Vary: User-Agent[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Date: Sun, 09 Feb 2020 23:24:04 GMT[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 201 
+2020-02-09 16:24:04 DEBUG headers:264 - << HTTP/1.1 201 
+2020-02-09 16:24:04 DEBUG headers:267 - << X-AREQUESTID: 984x1132x1
+2020-02-09 16:24:04 DEBUG headers:267 - << X-ASESSIONID: 6lbyyp
+2020-02-09 16:24:04 DEBUG headers:267 - << X-XSS-Protection: 1; mode=block
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Content-Type-Options: nosniff
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Frame-Options: SAMEORIGIN
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Security-Policy: frame-ancestors 'self'
+2020-02-09 16:24:04 DEBUG headers:267 - << X-ASEN: SEN-L14935662
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Seraph-LoginReason: OK
+2020-02-09 16:24:04 DEBUG headers:267 - << Set-Cookie: atlassian.xsrf.token=BWNL-UN77-8NK5-9ND4_e973213f68da68612986e8dd810f4514f4d7c2ec_lin; Path=/
+2020-02-09 16:24:04 DEBUG headers:267 - << X-AUSERNAME: samanrab
+2020-02-09 16:24:04 DEBUG headers:267 - << Cache-Control: no-cache, no-store, no-transform
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Encoding: gzip
+2020-02-09 16:24:04 DEBUG headers:267 - << Vary: User-Agent
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Type: application/json;charset=UTF-8
+2020-02-09 16:24:04 DEBUG headers:267 - << Transfer-Encoding: chunked
+2020-02-09 16:24:04 DEBUG headers:267 - << Date: Sun, 09 Feb 2020 23:24:04 GMT
+2020-02-09 16:24:04 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2020-02-09 16:24:04 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json;charset=UTF-8
+2020-02-09 16:24:04 DEBUG wire:72 -  << "5a[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x1f]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x8b]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x8]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x0]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x0]"
+2020-02-09 16:24:04 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-02-09 16:24:04 DEBUG Base:89 - Post Request Specificationsio.restassured.internal.RequestSpecificationImpl@6ffab045
+2020-02-09 16:24:04 INFO  TestUtils:36 - Getting Response Code
+2020-02-09 16:24:04 INFO  TestUtils:38 - Status Code: 201
+2020-02-09 16:24:04 INFO  Base:26 - Starting Test Case : doLogin
+2020-02-09 16:24:04 INFO  Base:49 - Inside PayloadConverter function
+2020-02-09 16:24:04 INFO  URL:16 - URI End Point : http://localhost:8081/rest/auth/1/session
+2020-02-09 16:24:04 INFO  Base:75 - Inside POSTRequest call
+2020-02-09 16:24:04 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://localhost:8081
+2020-02-09 16:24:04 DEBUG DefaultClientConnectionOperator:176 - Connecting to localhost:8081
+2020-02-09 16:24:04 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2020-02-09 16:24:04 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2020-02-09 16:24:04 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2020-02-09 16:24:04 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2020-02-09 16:24:04 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2020-02-09 16:24:04 DEBUG DefaultClientConnection:276 - Sending request: POST /rest/auth/1/session HTTP/1.1
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "POST /rest/auth/1/session HTTP/1.1[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Content-Length: 63[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Host: localhost:8081[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "[\r][\n]"
+2020-02-09 16:24:04 DEBUG headers:280 - >> POST /rest/auth/1/session HTTP/1.1
+2020-02-09 16:24:04 DEBUG headers:283 - >> Accept: */*
+2020-02-09 16:24:04 DEBUG headers:283 - >> Content-Type: application/json; charset=UTF-8
+2020-02-09 16:24:04 DEBUG headers:283 - >> Content-Length: 63
+2020-02-09 16:24:04 DEBUG headers:283 - >> Host: localhost:8081
+2020-02-09 16:24:04 DEBUG headers:283 - >> Connection: Keep-Alive
+2020-02-09 16:24:04 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)
+2020-02-09 16:24:04 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "{[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "  "username":"samanrab",[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "  "password":"SamanHussain25"[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "}[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "HTTP/1.1 200 [\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-AREQUESTID: 984x1133x1[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Security-Policy: frame-ancestors 'self'[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-ASEN: SEN-L14935662[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Set-Cookie: atlassian.xsrf.token=BWNL-UN77-8NK5-9ND4_a52181e6b340a74448a5868a5473f9bd5e6708f3_lout; Path=/[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-AUSERNAME: anonymous[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Set-Cookie: JSESSIONID=E2967E91211A4E05E343422A24E147D9; Path=/; HttpOnly[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Seraph-LoginReason: OK[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Cache-Control: no-cache, no-store, no-transform[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Vary: User-Agent[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Date: Sun, 09 Feb 2020 23:24:04 GMT[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 
+2020-02-09 16:24:04 DEBUG headers:264 - << HTTP/1.1 200 
+2020-02-09 16:24:04 DEBUG headers:267 - << X-AREQUESTID: 984x1133x1
+2020-02-09 16:24:04 DEBUG headers:267 - << X-XSS-Protection: 1; mode=block
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Content-Type-Options: nosniff
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Frame-Options: SAMEORIGIN
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Security-Policy: frame-ancestors 'self'
+2020-02-09 16:24:04 DEBUG headers:267 - << X-ASEN: SEN-L14935662
+2020-02-09 16:24:04 DEBUG headers:267 - << Set-Cookie: atlassian.xsrf.token=BWNL-UN77-8NK5-9ND4_a52181e6b340a74448a5868a5473f9bd5e6708f3_lout; Path=/
+2020-02-09 16:24:04 DEBUG headers:267 - << X-AUSERNAME: anonymous
+2020-02-09 16:24:04 DEBUG headers:267 - << Set-Cookie: JSESSIONID=E2967E91211A4E05E343422A24E147D9; Path=/; HttpOnly
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Seraph-LoginReason: OK
+2020-02-09 16:24:04 DEBUG headers:267 - << Cache-Control: no-cache, no-store, no-transform
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Encoding: gzip
+2020-02-09 16:24:04 DEBUG headers:267 - << Vary: User-Agent
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Type: application/json;charset=UTF-8
+2020-02-09 16:24:04 DEBUG headers:267 - << Transfer-Encoding: chunked
+2020-02-09 16:24:04 DEBUG headers:267 - << Date: Sun, 09 Feb 2020 23:24:04 GMT
+2020-02-09 16:24:04 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2020-02-09 16:24:04 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json;charset=UTF-8
+2020-02-09 16:24:04 DEBUG wire:72 -  << "b0[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x1f]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x8b]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x8]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x0]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x0]"
+2020-02-09 16:24:04 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-02-09 16:24:04 DEBUG Base:79 - io.restassured.internal.RequestSpecificationImpl@5ac86ba5
+2020-02-09 16:24:04 DEBUG wire:72 -  << "t[0x8e]A[\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[0xc2]0[0x14]D[0xef][0xf2][0xd7][0xad][0xfc][0xfc][0xc6][0x86]d'6BEt[0xd1]^ `*[0x81][0x9a][0x88]i[0xbb])[0xbd][0xbb]F[0xb][0xae]\[0xbe]a[0xde]03D[0x1b][0xa3][0xb][0x1e][0xd4][0xc][0xde][0xdc]-(86[0xba]i[0xea][0xcb][0xb9][0xae] [0x83][0xc9][0xf4]c[\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "5[0xc9]Rh[0xc9][0x88][0xb1][0x1d][0xd7][0xb8][0xd5][0x5]/8[0xd1][0x8e][0xb8]f\T[0x12][0x96][0xc][0xfa]ps[0xbe][0xf6]]Hc[0x9d]q[0xbd][0xbd][0x9e]R[0xb4][0xf][0xa3][0x1f]@[0xb1][0xb5][0xb1][0xa2]Hl[0xe2]p[0xf8][0x15][[0xf7]9@H[0x98]#[0xe5]([F[0x8a]I[0x85]|#[\n]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x91][0xa3]@|_z<[0xed][0xe4][0xc2][0x18][0xff])[0xa5]"[0x9e][0x14][0xce][0xe4]WY[0x96][0x17][0x0][0x0][0x0][0xff][0xff]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "a[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x3][0x0]4B[0x1c]*[0xe7][0x0][0x0][0x0]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "0[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6c67e137
+2020-02-09 16:24:04 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2020-02-09 16:24:04 INFO  Base:33 - Login Response Body: {"session":{"name":"JSESSIONID","value":"E2967E91211A4E05E343422A24E147D9"},"loginInfo":{"failedLoginCount":1,"loginCount":71,"lastFailedLoginTime":"2020-02-09T12:19:04.737-0700","previousLoginTime":"2020-02-09T16:24:04.419-0700"}}
+2020-02-09 16:24:04 INFO  TestUtils:14 - Converting Response to String
+2020-02-09 16:24:04 DEBUG TestUtils:16 - String Response{"session":{"name":"JSESSIONID","value":"E2967E91211A4E05E343422A24E147D9"},"loginInfo":{"failedLoginCount":1,"loginCount":71,"lastFailedLoginTime":"2020-02-09T12:19:04.737-0700","previousLoginTime":"2020-02-09T16:24:04.419-0700"}}
+2020-02-09 16:24:04 INFO  TestUtils:21 - Parsing String Response to JSON
+2020-02-09 16:24:04 DEBUG TestUtils:23 - JSON Response: io.restassured.path.json.JsonPath@2c9399a4
+2020-02-09 16:24:04 INFO  Base:38 - JIRA JSession ID : E2967E91211A4E05E343422A24E147D9
+2020-02-09 16:24:04 INFO  Base:49 - Inside PayloadConverter function
+2020-02-09 16:24:04 INFO  URL:16 - URI End Point : http://localhost:8081/rest/api/2/issue/
+2020-02-09 16:24:04 INFO  Base:84 - Inside POSTRequest call
+2020-02-09 16:24:04 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://localhost:8081
+2020-02-09 16:24:04 DEBUG DefaultClientConnectionOperator:176 - Connecting to localhost:8081
+2020-02-09 16:24:04 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2020-02-09 16:24:04 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2020-02-09 16:24:04 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2020-02-09 16:24:04 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2020-02-09 16:24:04 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2020-02-09 16:24:04 DEBUG DefaultClientConnection:276 - Sending request: POST /rest/api/2/issue/ HTTP/1.1
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "POST /rest/api/2/issue/ HTTP/1.1[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "cookie: JSESSIONID=E2967E91211A4E05E343422A24E147D9[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Content-Length: 288[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Host: localhost:8081[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "[\r][\n]"
+2020-02-09 16:24:04 DEBUG headers:280 - >> POST /rest/api/2/issue/ HTTP/1.1
+2020-02-09 16:24:04 DEBUG headers:283 - >> cookie: JSESSIONID=E2967E91211A4E05E343422A24E147D9
+2020-02-09 16:24:04 DEBUG headers:283 - >> Accept: */*
+2020-02-09 16:24:04 DEBUG headers:283 - >> Content-Type: application/json; charset=UTF-8
+2020-02-09 16:24:04 DEBUG headers:283 - >> Content-Length: 288
+2020-02-09 16:24:04 DEBUG headers:283 - >> Host: localhost:8081
+2020-02-09 16:24:04 DEBUG headers:283 - >> Connection: Keep-Alive
+2020-02-09 16:24:04 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)
+2020-02-09 16:24:04 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "{[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "  "fields": {[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "    "project":[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "    {[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "      "key": "SP"[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "    },[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "    "epicname":{[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "      "name": "my Epic"[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "    },[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "    "summary": "Creating my first Epic through API.",[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "    "description": "Creating my first Epic.",[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "    "issuetype": {[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "      "name": "Epic"[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "    }[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "    }[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "  }[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "HTTP/1.1 400 [\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-AREQUESTID: 984x1134x1[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-ASESSIONID: 1clnkgc[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Security-Policy: frame-ancestors 'self'[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-ASEN: SEN-L14935662[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Seraph-LoginReason: OK[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Set-Cookie: atlassian.xsrf.token=BWNL-UN77-8NK5-9ND4_cee2a4aa4fde3f5078e476dc9b749b2aa0cc4605_lin; Path=/[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-AUSERNAME: samanrab[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Cache-Control: no-cache, no-store, no-transform[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Vary: User-Agent[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Date: Sun, 09 Feb 2020 23:24:04 GMT[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Connection: close[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 400 
+2020-02-09 16:24:04 DEBUG headers:264 - << HTTP/1.1 400 
+2020-02-09 16:24:04 DEBUG headers:267 - << X-AREQUESTID: 984x1134x1
+2020-02-09 16:24:04 DEBUG headers:267 - << X-ASESSIONID: 1clnkgc
+2020-02-09 16:24:04 DEBUG headers:267 - << X-XSS-Protection: 1; mode=block
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Content-Type-Options: nosniff
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Frame-Options: SAMEORIGIN
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Security-Policy: frame-ancestors 'self'
+2020-02-09 16:24:04 DEBUG headers:267 - << X-ASEN: SEN-L14935662
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Seraph-LoginReason: OK
+2020-02-09 16:24:04 DEBUG headers:267 - << Set-Cookie: atlassian.xsrf.token=BWNL-UN77-8NK5-9ND4_cee2a4aa4fde3f5078e476dc9b749b2aa0cc4605_lin; Path=/
+2020-02-09 16:24:04 DEBUG headers:267 - << X-AUSERNAME: samanrab
+2020-02-09 16:24:04 DEBUG headers:267 - << Cache-Control: no-cache, no-store, no-transform
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Encoding: gzip
+2020-02-09 16:24:04 DEBUG headers:267 - << Vary: User-Agent
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Type: application/json;charset=UTF-8
+2020-02-09 16:24:04 DEBUG headers:267 - << Transfer-Encoding: chunked
+2020-02-09 16:24:04 DEBUG headers:267 - << Date: Sun, 09 Feb 2020 23:24:04 GMT
+2020-02-09 16:24:04 DEBUG headers:267 - << Connection: close
+2020-02-09 16:24:04 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json;charset=UTF-8
+2020-02-09 16:24:04 DEBUG wire:72 -  << "78[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x1f]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x8b]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x8]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x0]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x0]"
+2020-02-09 16:24:04 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-02-09 16:24:04 DEBUG Base:89 - Post Request Specificationsio.restassured.internal.RequestSpecificationImpl@60d8c0dc
+2020-02-09 16:24:04 INFO  TestUtils:36 - Getting Response Code
+2020-02-09 16:24:04 INFO  TestUtils:38 - Status Code: 400
+2020-02-09 16:24:04 INFO  Base:26 - Starting Test Case : doLogin
+2020-02-09 16:24:04 INFO  Base:49 - Inside PayloadConverter function
+2020-02-09 16:24:04 INFO  URL:16 - URI End Point : http://localhost:8081/rest/auth/1/session
+2020-02-09 16:24:04 INFO  Base:75 - Inside POSTRequest call
+2020-02-09 16:24:04 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://localhost:8081
+2020-02-09 16:24:04 DEBUG DefaultClientConnectionOperator:176 - Connecting to localhost:8081
+2020-02-09 16:24:04 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2020-02-09 16:24:04 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2020-02-09 16:24:04 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2020-02-09 16:24:04 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2020-02-09 16:24:04 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2020-02-09 16:24:04 DEBUG DefaultClientConnection:276 - Sending request: POST /rest/auth/1/session HTTP/1.1
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "POST /rest/auth/1/session HTTP/1.1[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Content-Length: 63[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Host: localhost:8081[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "[\r][\n]"
+2020-02-09 16:24:04 DEBUG headers:280 - >> POST /rest/auth/1/session HTTP/1.1
+2020-02-09 16:24:04 DEBUG headers:283 - >> Accept: */*
+2020-02-09 16:24:04 DEBUG headers:283 - >> Content-Type: application/json; charset=UTF-8
+2020-02-09 16:24:04 DEBUG headers:283 - >> Content-Length: 63
+2020-02-09 16:24:04 DEBUG headers:283 - >> Host: localhost:8081
+2020-02-09 16:24:04 DEBUG headers:283 - >> Connection: Keep-Alive
+2020-02-09 16:24:04 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)
+2020-02-09 16:24:04 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "{[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "  "username":"samanrab",[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "  "password":"SamanHussain25"[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "}[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "HTTP/1.1 200 [\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-AREQUESTID: 984x1135x1[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Security-Policy: frame-ancestors 'self'[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-ASEN: SEN-L14935662[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Set-Cookie: atlassian.xsrf.token=BWNL-UN77-8NK5-9ND4_2ab5f84345bc348c1c1ce5684bec280ea8bf1f9d_lout; Path=/[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-AUSERNAME: anonymous[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Set-Cookie: JSESSIONID=56F735EDE3EEBEC8864284EF92A901BD; Path=/; HttpOnly[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Seraph-LoginReason: OK[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Cache-Control: no-cache, no-store, no-transform[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Vary: User-Agent[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Date: Sun, 09 Feb 2020 23:24:04 GMT[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 
+2020-02-09 16:24:04 DEBUG headers:264 - << HTTP/1.1 200 
+2020-02-09 16:24:04 DEBUG headers:267 - << X-AREQUESTID: 984x1135x1
+2020-02-09 16:24:04 DEBUG headers:267 - << X-XSS-Protection: 1; mode=block
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Content-Type-Options: nosniff
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Frame-Options: SAMEORIGIN
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Security-Policy: frame-ancestors 'self'
+2020-02-09 16:24:04 DEBUG headers:267 - << X-ASEN: SEN-L14935662
+2020-02-09 16:24:04 DEBUG headers:267 - << Set-Cookie: atlassian.xsrf.token=BWNL-UN77-8NK5-9ND4_2ab5f84345bc348c1c1ce5684bec280ea8bf1f9d_lout; Path=/
+2020-02-09 16:24:04 DEBUG headers:267 - << X-AUSERNAME: anonymous
+2020-02-09 16:24:04 DEBUG headers:267 - << Set-Cookie: JSESSIONID=56F735EDE3EEBEC8864284EF92A901BD; Path=/; HttpOnly
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Seraph-LoginReason: OK
+2020-02-09 16:24:04 DEBUG headers:267 - << Cache-Control: no-cache, no-store, no-transform
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Encoding: gzip
+2020-02-09 16:24:04 DEBUG headers:267 - << Vary: User-Agent
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Type: application/json;charset=UTF-8
+2020-02-09 16:24:04 DEBUG headers:267 - << Transfer-Encoding: chunked
+2020-02-09 16:24:04 DEBUG headers:267 - << Date: Sun, 09 Feb 2020 23:24:04 GMT
+2020-02-09 16:24:04 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2020-02-09 16:24:04 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json;charset=UTF-8
+2020-02-09 16:24:04 DEBUG wire:72 -  << "b3[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x1f]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x8b]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x8]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x0]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x0]"
+2020-02-09 16:24:04 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-02-09 16:24:04 DEBUG Base:79 - io.restassured.internal.RequestSpecificationImpl@2cf23c81
+2020-02-09 16:24:04 DEBUG wire:86 -  << "t[0x8e]A[0xe][0x82]0[0x14]D[0xef][0xf2][0xd7]`~K[0xa1][0xd0][0x9d]@I0F[0x17]p[0x81]&[0x16][0xd3][0x4][c[0x81][\r][0xe1][0xee][0x82][0x92][0xb8]r[0xf9]&[0xf3]&3[0x83][0xd7][0xde][0x1b]gA[0xcc]`[0xd5]C[0x83][0x80]S#[0x9b][0xa6][0xbe]^[0xea][0x12][0x2][0x98]T?na[0x9c]T<[0x8a]e)#)sY[0xa4]i[0xc2]h[0xca]d[0x95][0xd1]c[0x86]$/a[0x9][0xa0]wwck[0xdb][0xb9]m[0xac]S[0xa6][0xd7][0xb7][0xf3][0x16][0x15]n[0xb4][0x3][0x8][0xb2]7v[0xe4]te[0xe5][0x87][0xea]Wl[0xcd][0xe7][0x0]E[0x8a]![0xd2][0x10][0xb3][0x96]PA2[0x81][0xec][0xc0]#[0x1e]"G\/=_z2n[0xf4][0xff][0x94]DP[0xb6])1#_eY[0xde][0x0][0x0][0x0][0xff][0xff]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "a[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x3][0x0]m[0xe3][0xc0]r[0xe7][0x0][0x0][0x0]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "0[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3624da92
+2020-02-09 16:24:04 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2020-02-09 16:24:04 INFO  Base:33 - Login Response Body: {"session":{"name":"JSESSIONID","value":"56F735EDE3EEBEC8864284EF92A901BD"},"loginInfo":{"failedLoginCount":1,"loginCount":72,"lastFailedLoginTime":"2020-02-09T12:19:04.737-0700","previousLoginTime":"2020-02-09T16:24:04.541-0700"}}
+2020-02-09 16:24:04 INFO  TestUtils:14 - Converting Response to String
+2020-02-09 16:24:04 DEBUG TestUtils:16 - String Response{"session":{"name":"JSESSIONID","value":"56F735EDE3EEBEC8864284EF92A901BD"},"loginInfo":{"failedLoginCount":1,"loginCount":72,"lastFailedLoginTime":"2020-02-09T12:19:04.737-0700","previousLoginTime":"2020-02-09T16:24:04.541-0700"}}
+2020-02-09 16:24:04 INFO  TestUtils:21 - Parsing String Response to JSON
+2020-02-09 16:24:04 DEBUG TestUtils:23 - JSON Response: io.restassured.path.json.JsonPath@35fe2125
+2020-02-09 16:24:04 INFO  Base:38 - JIRA JSession ID : 56F735EDE3EEBEC8864284EF92A901BD
+2020-02-09 16:24:04 INFO  Base:49 - Inside PayloadConverter function
+2020-02-09 16:24:04 INFO  URL:16 - URI End Point : http://localhost:8081/rest/api/2/component/
+2020-02-09 16:24:04 INFO  Base:84 - Inside POSTRequest call
+2020-02-09 16:24:04 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://localhost:8081
+2020-02-09 16:24:04 DEBUG DefaultClientConnectionOperator:176 - Connecting to localhost:8081
+2020-02-09 16:24:04 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2020-02-09 16:24:04 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2020-02-09 16:24:04 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2020-02-09 16:24:04 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2020-02-09 16:24:04 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2020-02-09 16:24:04 DEBUG DefaultClientConnection:276 - Sending request: POST /rest/api/2/component/ HTTP/1.1
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "POST /rest/api/2/component/ HTTP/1.1[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "cookie: JSESSIONID=56F735EDE3EEBEC8864284EF92A901BD[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Content-Length: 192[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Host: localhost:8081[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "[\r][\n]"
+2020-02-09 16:24:04 DEBUG headers:280 - >> POST /rest/api/2/component/ HTTP/1.1
+2020-02-09 16:24:04 DEBUG headers:283 - >> cookie: JSESSIONID=56F735EDE3EEBEC8864284EF92A901BD
+2020-02-09 16:24:04 DEBUG headers:283 - >> Accept: */*
+2020-02-09 16:24:04 DEBUG headers:283 - >> Content-Type: application/json; charset=UTF-8
+2020-02-09 16:24:04 DEBUG headers:283 - >> Content-Length: 192
+2020-02-09 16:24:04 DEBUG headers:283 - >> Host: localhost:8081
+2020-02-09 16:24:04 DEBUG headers:283 - >> Connection: Keep-Alive
+2020-02-09 16:24:04 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)
+2020-02-09 16:24:04 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "{[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "  "name": "Component_2",[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "  "description": "This is a Jira component",[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "  "leadUserName": "samanrab",[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "  "assigneeType": "UNASSIGNED",[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "  "isAssigneeTypeValid": false,[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "  "project": "SP"[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:86 -  >> "}"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "HTTP/1.1 400 [\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-AREQUESTID: 984x1136x1[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-ASESSIONID: 1dn7fbi[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Security-Policy: frame-ancestors 'self'[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-ASEN: SEN-L14935662[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Seraph-LoginReason: OK[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Set-Cookie: atlassian.xsrf.token=BWNL-UN77-8NK5-9ND4_62f4003334f14fa07c1c39e67d9aaffafb838541_lin; Path=/[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-AUSERNAME: samanrab[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Cache-Control: no-cache, no-store, no-transform[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Vary: User-Agent[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Date: Sun, 09 Feb 2020 23:24:04 GMT[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Connection: close[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 400 
+2020-02-09 16:24:04 DEBUG headers:264 - << HTTP/1.1 400 
+2020-02-09 16:24:04 DEBUG headers:267 - << X-AREQUESTID: 984x1136x1
+2020-02-09 16:24:04 DEBUG headers:267 - << X-ASESSIONID: 1dn7fbi
+2020-02-09 16:24:04 DEBUG headers:267 - << X-XSS-Protection: 1; mode=block
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Content-Type-Options: nosniff
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Frame-Options: SAMEORIGIN
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Security-Policy: frame-ancestors 'self'
+2020-02-09 16:24:04 DEBUG headers:267 - << X-ASEN: SEN-L14935662
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Seraph-LoginReason: OK
+2020-02-09 16:24:04 DEBUG headers:267 - << Set-Cookie: atlassian.xsrf.token=BWNL-UN77-8NK5-9ND4_62f4003334f14fa07c1c39e67d9aaffafb838541_lin; Path=/
+2020-02-09 16:24:04 DEBUG headers:267 - << X-AUSERNAME: samanrab
+2020-02-09 16:24:04 DEBUG headers:267 - << Cache-Control: no-cache, no-store, no-transform
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Encoding: gzip
+2020-02-09 16:24:04 DEBUG headers:267 - << Vary: User-Agent
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Type: application/json;charset=UTF-8
+2020-02-09 16:24:04 DEBUG headers:267 - << Transfer-Encoding: chunked
+2020-02-09 16:24:04 DEBUG headers:267 - << Date: Sun, 09 Feb 2020 23:24:04 GMT
+2020-02-09 16:24:04 DEBUG headers:267 - << Connection: close
+2020-02-09 16:24:04 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json;charset=UTF-8
+2020-02-09 16:24:04 DEBUG wire:72 -  << "6e[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x1f]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x8b]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x8]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x0]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x0]"
+2020-02-09 16:24:04 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-02-09 16:24:04 DEBUG Base:89 - Post Request Specificationsio.restassured.internal.RequestSpecificationImpl@47da3952
+2020-02-09 16:24:04 INFO  TestUtils:36 - Getting Response Code
+2020-02-09 16:24:04 INFO  TestUtils:38 - Status Code: 400
+2020-02-09 16:24:04 INFO  Base:26 - Starting Test Case : doLogin
+2020-02-09 16:24:04 INFO  Base:49 - Inside PayloadConverter function
+2020-02-09 16:24:04 INFO  URL:16 - URI End Point : http://localhost:8081/rest/auth/1/session
+2020-02-09 16:24:04 INFO  Base:75 - Inside POSTRequest call
+2020-02-09 16:24:04 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://localhost:8081
+2020-02-09 16:24:04 DEBUG DefaultClientConnectionOperator:176 - Connecting to localhost:8081
+2020-02-09 16:24:04 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2020-02-09 16:24:04 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2020-02-09 16:24:04 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2020-02-09 16:24:04 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2020-02-09 16:24:04 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2020-02-09 16:24:04 DEBUG DefaultClientConnection:276 - Sending request: POST /rest/auth/1/session HTTP/1.1
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "POST /rest/auth/1/session HTTP/1.1[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Content-Length: 63[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Host: localhost:8081[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "[\r][\n]"
+2020-02-09 16:24:04 DEBUG headers:280 - >> POST /rest/auth/1/session HTTP/1.1
+2020-02-09 16:24:04 DEBUG headers:283 - >> Accept: */*
+2020-02-09 16:24:04 DEBUG headers:283 - >> Content-Type: application/json; charset=UTF-8
+2020-02-09 16:24:04 DEBUG headers:283 - >> Content-Length: 63
+2020-02-09 16:24:04 DEBUG headers:283 - >> Host: localhost:8081
+2020-02-09 16:24:04 DEBUG headers:283 - >> Connection: Keep-Alive
+2020-02-09 16:24:04 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)
+2020-02-09 16:24:04 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "{[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "  "username":"samanrab",[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "  "password":"SamanHussain25"[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "}[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "HTTP/1.1 200 [\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-AREQUESTID: 984x1137x1[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Security-Policy: frame-ancestors 'self'[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-ASEN: SEN-L14935662[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Set-Cookie: atlassian.xsrf.token=BWNL-UN77-8NK5-9ND4_5023cb382af8648c3c77b1403964d26a64628f18_lout; Path=/[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-AUSERNAME: anonymous[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Set-Cookie: JSESSIONID=F314D67C055B728F72DA4BE9A856870A; Path=/; HttpOnly[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Seraph-LoginReason: OK[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Cache-Control: no-cache, no-store, no-transform[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Vary: User-Agent[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Date: Sun, 09 Feb 2020 23:24:04 GMT[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 
+2020-02-09 16:24:04 DEBUG headers:264 - << HTTP/1.1 200 
+2020-02-09 16:24:04 DEBUG headers:267 - << X-AREQUESTID: 984x1137x1
+2020-02-09 16:24:04 DEBUG headers:267 - << X-XSS-Protection: 1; mode=block
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Content-Type-Options: nosniff
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Frame-Options: SAMEORIGIN
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Security-Policy: frame-ancestors 'self'
+2020-02-09 16:24:04 DEBUG headers:267 - << X-ASEN: SEN-L14935662
+2020-02-09 16:24:04 DEBUG headers:267 - << Set-Cookie: atlassian.xsrf.token=BWNL-UN77-8NK5-9ND4_5023cb382af8648c3c77b1403964d26a64628f18_lout; Path=/
+2020-02-09 16:24:04 DEBUG headers:267 - << X-AUSERNAME: anonymous
+2020-02-09 16:24:04 DEBUG headers:267 - << Set-Cookie: JSESSIONID=F314D67C055B728F72DA4BE9A856870A; Path=/; HttpOnly
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Seraph-LoginReason: OK
+2020-02-09 16:24:04 DEBUG headers:267 - << Cache-Control: no-cache, no-store, no-transform
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Encoding: gzip
+2020-02-09 16:24:04 DEBUG headers:267 - << Vary: User-Agent
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Type: application/json;charset=UTF-8
+2020-02-09 16:24:04 DEBUG headers:267 - << Transfer-Encoding: chunked
+2020-02-09 16:24:04 DEBUG headers:267 - << Date: Sun, 09 Feb 2020 23:24:04 GMT
+2020-02-09 16:24:04 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2020-02-09 16:24:04 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json;charset=UTF-8
+2020-02-09 16:24:04 DEBUG wire:72 -  << "b3[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x1f]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x8b]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x8]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x0]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x0]"
+2020-02-09 16:24:04 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-02-09 16:24:04 DEBUG Base:79 - io.restassured.internal.RequestSpecificationImpl@841e575
+2020-02-09 16:24:04 DEBUG wire:72 -  << "t[0x8e][0xcb][0xe][0x82]0[0x14]D[0xff][0xe5][0xae][0xc1][0xdc][0x96][0xd2]Bw<[0x13][0x8c][0xd1][0x5][0xfe]@[0x13][0x8b]i[0x82][0xad][0xb1][0xc0][0x86][0xf0][0xef][0x82][0x92][0xb8]ry&s&3[0x83][0xd7][0xde][0x1b]gA[0xce]`[0xd5]C[0x83][0x84]c[[0xb5]ms97%[0x4]0[0xa9]~[0xdc][0xc2]:"[0xac][0xe4][0xa2][0xc0]8[0xce][0x5]MjA[0xcb][0x8c][0xe5]U[0x9a]%1O[0x4]f[0xb0][0x4][0xd0][0xbb][0xbb][0xb1][0x8d][0xed][0xdc]6[0xd6])[0xd3][0xeb][0xdb]i[0x8b][\n]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "7[0xda][0x1]$[0xd9][0x1b];[0x8a]he[0xe5][0x87][0xfa]W[0xbc][0x9a][0xcf][0x1][0x8a][0x14]C[0xa4]![0xa6]WB%I%[0xb2][0x83][0x88]D[0x88][0x2]q[0xbd][0xf4]|[0xe9][0xc9][0xb8][0xd1][0xff]S[0xb8][0xa4]lS8[0x8b][0xbe][0xca][0xb2][0xbc][0x1][0x0][0x0][0xff][0xff]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "a[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x3][0x0][0x8e][0xcb]J[0x11][0xe7][0x0][0x0][0x0]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "0[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@27a5328c
+2020-02-09 16:24:04 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2020-02-09 16:24:04 INFO  Base:33 - Login Response Body: {"session":{"name":"JSESSIONID","value":"F314D67C055B728F72DA4BE9A856870A"},"loginInfo":{"failedLoginCount":1,"loginCount":73,"lastFailedLoginTime":"2020-02-09T12:19:04.737-0700","previousLoginTime":"2020-02-09T16:24:04.643-0700"}}
+2020-02-09 16:24:04 INFO  TestUtils:14 - Converting Response to String
+2020-02-09 16:24:04 DEBUG TestUtils:16 - String Response{"session":{"name":"JSESSIONID","value":"F314D67C055B728F72DA4BE9A856870A"},"loginInfo":{"failedLoginCount":1,"loginCount":73,"lastFailedLoginTime":"2020-02-09T12:19:04.737-0700","previousLoginTime":"2020-02-09T16:24:04.643-0700"}}
+2020-02-09 16:24:04 INFO  TestUtils:21 - Parsing String Response to JSON
+2020-02-09 16:24:04 DEBUG TestUtils:23 - JSON Response: io.restassured.path.json.JsonPath@6c345c5f
+2020-02-09 16:24:04 INFO  Base:38 - JIRA JSession ID : F314D67C055B728F72DA4BE9A856870A
+2020-02-09 16:24:04 INFO  URL:16 - URI End Point : http://localhost:8081/rest/api/2/project/SP/components
+2020-02-09 16:24:04 INFO  Base:64 - Inside GETRequest call
+2020-02-09 16:24:04 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://localhost:8081
+2020-02-09 16:24:04 DEBUG DefaultClientConnectionOperator:176 - Connecting to localhost:8081
+2020-02-09 16:24:04 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2020-02-09 16:24:04 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2020-02-09 16:24:04 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2020-02-09 16:24:04 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2020-02-09 16:24:04 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2020-02-09 16:24:04 DEBUG DefaultClientConnection:276 - Sending request: GET /rest/api/2/project/SP/components HTTP/1.1
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "GET /rest/api/2/project/SP/components HTTP/1.1[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "cookie: JSESSIONID=F314D67C055B728F72DA4BE9A856870A[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Host: localhost:8081[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "[\r][\n]"
+2020-02-09 16:24:04 DEBUG headers:280 - >> GET /rest/api/2/project/SP/components HTTP/1.1
+2020-02-09 16:24:04 DEBUG headers:283 - >> Content-Type: application/json; charset=UTF-8
+2020-02-09 16:24:04 DEBUG headers:283 - >> cookie: JSESSIONID=F314D67C055B728F72DA4BE9A856870A
+2020-02-09 16:24:04 DEBUG headers:283 - >> Accept: */*
+2020-02-09 16:24:04 DEBUG headers:283 - >> Content-Length: 0
+2020-02-09 16:24:04 DEBUG headers:283 - >> Host: localhost:8081
+2020-02-09 16:24:04 DEBUG headers:283 - >> Connection: Keep-Alive
+2020-02-09 16:24:04 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)
+2020-02-09 16:24:04 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2020-02-09 16:24:04 DEBUG wire:72 -  << "HTTP/1.1 200 [\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-AREQUESTID: 984x1138x1[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-ASESSIONID: fprps9[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Security-Policy: frame-ancestors 'self'[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-ASEN: SEN-L14935662[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Seraph-LoginReason: OK[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Set-Cookie: atlassian.xsrf.token=BWNL-UN77-8NK5-9ND4_ee32007b92d30fa49b7ae44da332226259350a95_lin; Path=/[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-AUSERNAME: samanrab[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Cache-Control: no-cache, no-store, no-transform[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Vary: User-Agent[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Date: Sun, 09 Feb 2020 23:24:04 GMT[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 
+2020-02-09 16:24:04 DEBUG headers:264 - << HTTP/1.1 200 
+2020-02-09 16:24:04 DEBUG headers:267 - << X-AREQUESTID: 984x1138x1
+2020-02-09 16:24:04 DEBUG headers:267 - << X-ASESSIONID: fprps9
+2020-02-09 16:24:04 DEBUG headers:267 - << X-XSS-Protection: 1; mode=block
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Content-Type-Options: nosniff
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Frame-Options: SAMEORIGIN
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Security-Policy: frame-ancestors 'self'
+2020-02-09 16:24:04 DEBUG headers:267 - << X-ASEN: SEN-L14935662
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Seraph-LoginReason: OK
+2020-02-09 16:24:04 DEBUG headers:267 - << Set-Cookie: atlassian.xsrf.token=BWNL-UN77-8NK5-9ND4_ee32007b92d30fa49b7ae44da332226259350a95_lin; Path=/
+2020-02-09 16:24:04 DEBUG headers:267 - << X-AUSERNAME: samanrab
+2020-02-09 16:24:04 DEBUG headers:267 - << Cache-Control: no-cache, no-store, no-transform
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Encoding: gzip
+2020-02-09 16:24:04 DEBUG headers:267 - << Vary: User-Agent
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Type: application/json;charset=UTF-8
+2020-02-09 16:24:04 DEBUG headers:267 - << Transfer-Encoding: chunked
+2020-02-09 16:24:04 DEBUG headers:267 - << Date: Sun, 09 Feb 2020 23:24:04 GMT
+2020-02-09 16:24:04 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2020-02-09 16:24:04 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json;charset=UTF-8
+2020-02-09 16:24:04 DEBUG wire:72 -  << "169[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x1f]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x8b]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x8]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x0]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x0]"
+2020-02-09 16:24:04 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-02-09 16:24:04 DEBUG Base:69 - io.restassured.internal.RequestSpecificationImpl@33617539
+2020-02-09 16:24:04 INFO  TestUtils:36 - Getting Response Code
+2020-02-09 16:24:04 INFO  TestUtils:38 - Status Code: 200
+2020-02-09 16:24:04 INFO  Base:26 - Starting Test Case : doLogin
+2020-02-09 16:24:04 INFO  Base:49 - Inside PayloadConverter function
+2020-02-09 16:24:04 INFO  URL:16 - URI End Point : http://localhost:8081/rest/auth/1/session
+2020-02-09 16:24:04 INFO  Base:75 - Inside POSTRequest call
+2020-02-09 16:24:04 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://localhost:8081
+2020-02-09 16:24:04 DEBUG DefaultClientConnectionOperator:176 - Connecting to localhost:8081
+2020-02-09 16:24:04 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2020-02-09 16:24:04 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2020-02-09 16:24:04 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2020-02-09 16:24:04 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2020-02-09 16:24:04 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2020-02-09 16:24:04 DEBUG DefaultClientConnection:276 - Sending request: POST /rest/auth/1/session HTTP/1.1
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "POST /rest/auth/1/session HTTP/1.1[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Content-Length: 63[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Host: localhost:8081[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "[\r][\n]"
+2020-02-09 16:24:04 DEBUG headers:280 - >> POST /rest/auth/1/session HTTP/1.1
+2020-02-09 16:24:04 DEBUG headers:283 - >> Accept: */*
+2020-02-09 16:24:04 DEBUG headers:283 - >> Content-Type: application/json; charset=UTF-8
+2020-02-09 16:24:04 DEBUG headers:283 - >> Content-Length: 63
+2020-02-09 16:24:04 DEBUG headers:283 - >> Host: localhost:8081
+2020-02-09 16:24:04 DEBUG headers:283 - >> Connection: Keep-Alive
+2020-02-09 16:24:04 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)
+2020-02-09 16:24:04 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "{[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "  "username":"samanrab",[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "  "password":"SamanHussain25"[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "}[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "HTTP/1.1 200 [\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-AREQUESTID: 984x1139x1[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Security-Policy: frame-ancestors 'self'[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-ASEN: SEN-L14935662[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Set-Cookie: atlassian.xsrf.token=BWNL-UN77-8NK5-9ND4_ad0d5968325557ed660eef3b36a2027291dfd1a4_lout; Path=/[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-AUSERNAME: anonymous[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Set-Cookie: JSESSIONID=A3967A2E063C2B9D960496979A8A5105; Path=/; HttpOnly[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Seraph-LoginReason: OK[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Cache-Control: no-cache, no-store, no-transform[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Vary: User-Agent[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Date: Sun, 09 Feb 2020 23:24:04 GMT[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 
+2020-02-09 16:24:04 DEBUG headers:264 - << HTTP/1.1 200 
+2020-02-09 16:24:04 DEBUG headers:267 - << X-AREQUESTID: 984x1139x1
+2020-02-09 16:24:04 DEBUG headers:267 - << X-XSS-Protection: 1; mode=block
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Content-Type-Options: nosniff
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Frame-Options: SAMEORIGIN
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Security-Policy: frame-ancestors 'self'
+2020-02-09 16:24:04 DEBUG headers:267 - << X-ASEN: SEN-L14935662
+2020-02-09 16:24:04 DEBUG headers:267 - << Set-Cookie: atlassian.xsrf.token=BWNL-UN77-8NK5-9ND4_ad0d5968325557ed660eef3b36a2027291dfd1a4_lout; Path=/
+2020-02-09 16:24:04 DEBUG headers:267 - << X-AUSERNAME: anonymous
+2020-02-09 16:24:04 DEBUG headers:267 - << Set-Cookie: JSESSIONID=A3967A2E063C2B9D960496979A8A5105; Path=/; HttpOnly
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Seraph-LoginReason: OK
+2020-02-09 16:24:04 DEBUG headers:267 - << Cache-Control: no-cache, no-store, no-transform
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Encoding: gzip
+2020-02-09 16:24:04 DEBUG headers:267 - << Vary: User-Agent
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Type: application/json;charset=UTF-8
+2020-02-09 16:24:04 DEBUG headers:267 - << Transfer-Encoding: chunked
+2020-02-09 16:24:04 DEBUG headers:267 - << Date: Sun, 09 Feb 2020 23:24:04 GMT
+2020-02-09 16:24:04 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2020-02-09 16:24:04 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json;charset=UTF-8
+2020-02-09 16:24:04 DEBUG wire:72 -  << "b1[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x1f]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x8b]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x8]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x0]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x0]"
+2020-02-09 16:24:04 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-02-09 16:24:04 DEBUG Base:79 - io.restassured.internal.RequestSpecificationImpl@6fefce9e
+2020-02-09 16:24:04 DEBUG wire:86 -  << "t[0x8e]A[0xe][0x82]0[0x14]D[0xef][0xf2][0xd7]`>-[0xb4][0xfe][0xee]*`[0x82]1[0xba][0xc0][0xb][0x90][0x8][0xa6][0x9][0xb6][0xc6][0x2][0x1b][0xc2][0xdd][0x5]!q[0xe5][0xf2]M[0xe6]Mf[0x4]_{o[0x9c][0x5]5[0x82][0xad][0x9e]5(8[0x95]yY[0x16][0xd7]K[0x91]A[0x0]C[0xd5][0xf6]K[0xa8]9[0x9][0xa9]Y[0x8e][0x82][0xa7][0xec]@[0x19][0x9][0x8c]I[0x90]$[0xbd][0xd7]I[0x84][0x9]L[0x1][0xb4][0xee]ala[0x1b][0xb7][0x8c]5[0x95]i[0xeb][0xfb]y[0x89]R[0xd7][0xdb][0xe]T[0xb4]56[0x94][0xf1][0xcc][0x95][0xef][0x8e][0xbf][0xe2][0xcd]|[0xf]0d[0x18]"[0xb][0x91]n[0x11]S[0x11])[0x8c]w[0x92][0xcb][0x10]%[0xe2]|[0xe9][0xf5][0xae][0x7][0xe3]z[0xff]O[0x11][0x8a][0xc5][0xab][0xc2]We[0x9a]>[0x0][0x0][0x0][0xff][0xff]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "a[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:86 -  << "[0x3][0x0][0xb9]6[0x0][0x86][0xe7][0x0][0x0][0x0]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "0[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4f8969b0
+2020-02-09 16:24:04 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2020-02-09 16:24:04 INFO  Base:33 - Login Response Body: {"session":{"name":"JSESSIONID","value":"A3967A2E063C2B9D960496979A8A5105"},"loginInfo":{"failedLoginCount":1,"loginCount":74,"lastFailedLoginTime":"2020-02-09T12:19:04.737-0700","previousLoginTime":"2020-02-09T16:24:04.733-0700"}}
+2020-02-09 16:24:04 INFO  TestUtils:14 - Converting Response to String
+2020-02-09 16:24:04 DEBUG TestUtils:16 - String Response{"session":{"name":"JSESSIONID","value":"A3967A2E063C2B9D960496979A8A5105"},"loginInfo":{"failedLoginCount":1,"loginCount":74,"lastFailedLoginTime":"2020-02-09T12:19:04.737-0700","previousLoginTime":"2020-02-09T16:24:04.733-0700"}}
+2020-02-09 16:24:04 INFO  TestUtils:21 - Parsing String Response to JSON
+2020-02-09 16:24:04 DEBUG TestUtils:23 - JSON Response: io.restassured.path.json.JsonPath@1bdf8190
+2020-02-09 16:24:04 INFO  Base:38 - JIRA JSession ID : A3967A2E063C2B9D960496979A8A5105
+2020-02-09 16:24:04 INFO  URL:16 - URI End Point : http://localhost:8081/rest/api/2/issue/SP-4
+2020-02-09 16:24:04 INFO  Base:105 - Inside DELETERequest call
+2020-02-09 16:24:04 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://localhost:8081
+2020-02-09 16:24:04 DEBUG DefaultClientConnectionOperator:176 - Connecting to localhost:8081
+2020-02-09 16:24:04 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2020-02-09 16:24:04 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2020-02-09 16:24:04 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2020-02-09 16:24:04 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2020-02-09 16:24:04 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2020-02-09 16:24:04 DEBUG DefaultClientConnection:276 - Sending request: DELETE /rest/api/2/issue/SP-4 HTTP/1.1
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "DELETE /rest/api/2/issue/SP-4 HTTP/1.1[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "cookie: JSESSIONID=A3967A2E063C2B9D960496979A8A5105[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Host: localhost:8081[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  >> "[\r][\n]"
+2020-02-09 16:24:04 DEBUG headers:280 - >> DELETE /rest/api/2/issue/SP-4 HTTP/1.1
+2020-02-09 16:24:04 DEBUG headers:283 - >> Content-Type: application/json; charset=UTF-8
+2020-02-09 16:24:04 DEBUG headers:283 - >> cookie: JSESSIONID=A3967A2E063C2B9D960496979A8A5105
+2020-02-09 16:24:04 DEBUG headers:283 - >> Accept: */*
+2020-02-09 16:24:04 DEBUG headers:283 - >> Content-Length: 0
+2020-02-09 16:24:04 DEBUG headers:283 - >> Host: localhost:8081
+2020-02-09 16:24:04 DEBUG headers:283 - >> Connection: Keep-Alive
+2020-02-09 16:24:04 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)
+2020-02-09 16:24:04 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2020-02-09 16:24:04 DEBUG wire:72 -  << "HTTP/1.1 204 [\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-AREQUESTID: 984x1140x1[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-ASESSIONID: 980l0r[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Security-Policy: frame-ancestors 'self'[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-ASEN: SEN-L14935662[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-Seraph-LoginReason: OK[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Set-Cookie: atlassian.xsrf.token=BWNL-UN77-8NK5-9ND4_7a5973717aa5f491ffdf27227676176148408d6d_lin; Path=/[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "X-AUSERNAME: samanrab[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Cache-Control: no-cache, no-store, no-transform[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "Date: Sun, 09 Feb 2020 23:24:04 GMT[\r][\n]"
+2020-02-09 16:24:04 DEBUG wire:72 -  << "[\r][\n]"
+2020-02-09 16:24:04 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 204 
+2020-02-09 16:24:04 DEBUG headers:264 - << HTTP/1.1 204 
+2020-02-09 16:24:04 DEBUG headers:267 - << X-AREQUESTID: 984x1140x1
+2020-02-09 16:24:04 DEBUG headers:267 - << X-ASESSIONID: 980l0r
+2020-02-09 16:24:04 DEBUG headers:267 - << X-XSS-Protection: 1; mode=block
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Content-Type-Options: nosniff
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Frame-Options: SAMEORIGIN
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Security-Policy: frame-ancestors 'self'
+2020-02-09 16:24:04 DEBUG headers:267 - << X-ASEN: SEN-L14935662
+2020-02-09 16:24:04 DEBUG headers:267 - << X-Seraph-LoginReason: OK
+2020-02-09 16:24:04 DEBUG headers:267 - << Set-Cookie: atlassian.xsrf.token=BWNL-UN77-8NK5-9ND4_7a5973717aa5f491ffdf27227676176148408d6d_lin; Path=/
+2020-02-09 16:24:04 DEBUG headers:267 - << X-AUSERNAME: samanrab
+2020-02-09 16:24:04 DEBUG headers:267 - << Cache-Control: no-cache, no-store, no-transform
+2020-02-09 16:24:04 DEBUG headers:267 - << Content-Type: application/json;charset=UTF-8
+2020-02-09 16:24:04 DEBUG headers:267 - << Date: Sun, 09 Feb 2020 23:24:04 GMT
+2020-02-09 16:24:04 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2020-02-09 16:24:04 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5cc69cfe
+2020-02-09 16:24:04 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2020-02-09 16:24:04 DEBUG Base:110 - io.restassured.internal.RequestSpecificationImpl@29cfd92b
+2020-02-09 16:24:04 INFO  TestUtils:36 - Getting Response Code
+2020-02-09 16:24:04 INFO  TestUtils:38 - Status Code: 204

@@ -1,0 +1,19 @@
+{
+  "fields": {
+    "project":
+    {
+      "key": "SP"
+    },
+    "epicname":{
+      "name": "my Epic"
+
+    },
+    "summary": "Creating my first Epic through API.",
+    "description": "Creating my first Epic.",
+    "issuetype": {
+      "name": "Epic"
+    }
+
+
+    }
+  }
